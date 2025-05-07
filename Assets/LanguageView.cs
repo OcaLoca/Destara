@@ -20,10 +20,10 @@ namespace Game
     public class LanguageView : View<GameApplication>
     {
         public Button btnBack, btnConfirmEngLanguage, btnConfirmItalian, btnConfirmFrench, btnConfirmSpanish, btnConfirmPortoghês,
-              btnConfirmGerman, btnConfirmJapanese;
-        public Button btnShowEnglish, btnShowItalian, btnShowFrench, btnShowSpanish, btnShowPortoghês, btnShowGerman, btnShowJapanese;
-        public TMP_Text txtEnglish, txtItalian, txtFrench, txtSpanish, txtPortogh, txtGerman, txtJapanese;
-        public GameObject UISelectedItalian, UISelectedEnglish, UISelectedFrench, UISelectedSpanish, UISelectedPortoghês, UISelectedGerman, UISelectedJapanese;
+              btnConfirmGerman;
+        public Button btnShowEnglish, btnShowItalian, btnShowFrench, btnShowSpanish, btnShowPortoghês, btnShowGerman;
+        public TMP_Text txtEnglish, txtItalian, txtFrench, txtSpanish, txtPortogh, txtGerman;
+        //public GameObject UISelectedItalian, UISelectedEnglish, UISelectedFrench, UISelectedSpanish, UISelectedPortoghês, UISelectedGerman, UISelectedJapanese;
 
         public bool alreadyChoice;
         public bool openFromGame;
@@ -54,14 +54,12 @@ namespace Game
             btnShowSpanish.onClick.RemoveAllListeners();
             btnShowPortoghês.onClick.RemoveAllListeners();
             btnShowGerman.onClick.RemoveAllListeners();
-            btnShowJapanese.onClick.RemoveAllListeners();
             btnConfirmEngLanguage.onClick.RemoveAllListeners();
             btnConfirmItalian.onClick.RemoveAllListeners();
             btnConfirmFrench.onClick.RemoveAllListeners();
             btnConfirmSpanish.onClick.RemoveAllListeners();
             btnConfirmPortoghês.onClick.RemoveAllListeners();
             btnConfirmGerman.onClick.RemoveAllListeners();
-            btnConfirmJapanese.onClick.RemoveAllListeners();
             btnBack.onClick.RemoveAllListeners();
 
             // Aggiungere nuovi ascoltatori per i pulsanti
@@ -75,8 +73,7 @@ namespace Game
                 (btnShowFrench, "Français"),
                 (btnShowSpanish, "Español"),
                 (btnShowPortoghês, "Portoghês"),
-                (btnShowGerman, "Deutsch"),
-                (btnShowJapanese, "日本語")
+                (btnShowGerman, "Deutsch")
             };
 
             // Aggiungi gli ascoltatori per tutti i pulsanti
@@ -92,7 +89,6 @@ namespace Game
             btnConfirmSpanish.onClick.AddListener(delegate { OnConfirm("Español"); });
             btnConfirmPortoghês.onClick.AddListener(delegate { OnConfirm("Portoghês"); });
             btnConfirmGerman.onClick.AddListener(delegate { OnConfirm("Deutsch"); });
-            btnConfirmJapanese.onClick.AddListener(delegate { OnConfirm("日本語"); });
 
             if (openFromGame)
             {
@@ -110,31 +106,30 @@ namespace Game
             {
                 case LocalizationIDDatabase.ENGLISH:
                     txtEnglish.color = colorActive;
-                    UISelectedEnglish.gameObject.SetActive(true);
+                    //UISelectedEnglish.gameObject.SetActive(true);
                     break;
                 case LocalizationIDDatabase.ITALIAN:
                     txtItalian.color = colorActive;
-                    UISelectedItalian.gameObject.SetActive(true);
+                    //UISelectedItalian.gameObject.SetActive(true);
                     break;
                 case LocalizationIDDatabase.FRENCH:
                     txtFrench.color = colorActive;
-                    UISelectedFrench.gameObject.SetActive(true);
+                    //UISelectedFrench.gameObject.SetActive(true);
                     break;
                 case LocalizationIDDatabase.SPANISH:
                     txtSpanish.color = colorActive;
-                    UISelectedSpanish.gameObject.SetActive(true);
+                    //UISelectedSpanish.gameObject.SetActive(true);
                     break;
                 case LocalizationIDDatabase.PORTOGUESE:
                     txtPortogh.color = colorActive;
-                    UISelectedPortoghês.gameObject.SetActive(true);
+                   // UISelectedPortoghês.gameObject.SetActive(true);
                     break;
                 case LocalizationIDDatabase.GERMAN:
                     txtGerman.color = colorActive;
-                    UISelectedGerman.gameObject.SetActive(true);
+                    //UISelectedGerman.gameObject.SetActive(true);
                     break;
                 case LocalizationIDDatabase.JAPANESE:
-                    txtJapanese.color = colorActive;
-                    UISelectedJapanese.gameObject.SetActive(true);
+                   // UISelectedJapanese.gameObject.SetActive(true);
                     break;
                 default:
                     break;
@@ -171,7 +166,6 @@ namespace Game
                     txtGerman.color = colorActive;
                     break;
                 case "日本語":
-                    txtJapanese.color = colorActive;
                     break;
             }
 
@@ -186,7 +180,6 @@ namespace Game
             txtSpanish.color = colorLessAlpha;
             txtPortogh.color = colorLessAlpha;
             txtGerman.color = colorLessAlpha;
-            txtJapanese.color = colorLessAlpha;
         }
 
         void CheckFirstGame()
@@ -239,13 +232,13 @@ namespace Game
 
         void ShowButton(string language)
         {
-            UISelectedItalian.gameObject.SetActive(language == "Italiano");
-            UISelectedEnglish.gameObject.SetActive(language == "English");
-            UISelectedFrench.gameObject.SetActive(language == "Français");
-            UISelectedSpanish.gameObject.SetActive(language == "Español");
-            UISelectedPortoghês.gameObject.SetActive(language == "Portoghês");
-            UISelectedGerman.gameObject.SetActive(language == "Deutsch");
-            UISelectedJapanese.gameObject.SetActive(language == "日本語");
+            //UISelectedItalian.gameObject.SetActive(language == "Italiano");
+            //UISelectedEnglish.gameObject.SetActive(language == "English");
+            //UISelectedFrench.gameObject.SetActive(language == "Français");
+            //UISelectedSpanish.gameObject.SetActive(language == "Español");
+            //UISelectedPortoghês.gameObject.SetActive(language == "Portoghês");
+            //UISelectedGerman.gameObject.SetActive(language == "Deutsch");
+            //UISelectedJapanese.gameObject.SetActive(language == "日本語");
         }
 
         void OnClickBack()

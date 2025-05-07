@@ -8,13 +8,10 @@
  * ----------------------------------------------
  */
 
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using SmartMVC;
 using UnityEngine.UI;
 using TMPro;
-using StarworkGC.Localization;
 
 namespace Game
 {
@@ -26,13 +23,10 @@ namespace Game
         public Button btnCuriosity;
         public Button btnLibrary;
         public Button btnOptions;
-        public Button btnMobyBit;
         public TMP_Text lblContinue;
         public TMP_Text lblNewGame;
         public TMP_Text lblCuriosity;
         public TMP_Text lblOption;
-        public GameObject animatorHighlineContinue;
-        public GameObject animatorHighlineNewGame;
 
 
         [Header("Sounds")]
@@ -62,15 +56,11 @@ namespace Game
             {
                 btnContinue.interactable = false;
                 lblContinue.CrossFadeAlpha(0.5f, 0f, false);
-                animatorHighlineContinue.gameObject.SetActive(false);
-                animatorHighlineNewGame.gameObject.SetActive(true);
             }
             else
             {
                 lblContinue.CrossFadeAlpha(1f, 0f, false);
                 btnContinue.interactable = true;
-                animatorHighlineContinue.gameObject.SetActive(true);
-                animatorHighlineNewGame.gameObject.SetActive(false);
             }
 
             Debug.LogWarning("RICORDARSI DI ELIMINARE LA RIGA 77 QUANDO TORNA DISPONIBILE IL TASTO CONTINUA");
@@ -90,9 +80,6 @@ namespace Game
 
             btnLibrary.onClick.RemoveAllListeners();
             btnLibrary.onClick.AddListener(OnClickLibrary);
-
-            btnMobyBit.onClick.RemoveAllListeners();
-            btnMobyBit.onClick.AddListener(OnClickMobyBit);
         }
 
         void OnClickContinue()

@@ -41,9 +41,7 @@ namespace Game
         [Header("UI")]
         [SerializeField] GameObject skullContainer;
         [SerializeField] Image[] skullImages = new Image[3];
-        [SerializeField] GameObject[] highLineAnimators = new GameObject[3];
         public GameObject GetSkullContainer { get => skullContainer; }
-        public GameObject[] GetHighLineAnimators { get => highLineAnimators; }
         public Image[] GetBlackSkulls { get => skullImages; }
 
 
@@ -88,7 +86,7 @@ namespace Game
         void RefreshUI()
         {
             foreach (Image skullImage in GetBlackSkulls) { skullImage.enabled = false; }
-            foreach (GameObject lineAnimator in GetHighLineAnimators) { lineAnimator.gameObject.SetActive(false); }
+           
 
             colorAlphaMore = lblDifficultyDescription.color;
 

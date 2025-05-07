@@ -46,7 +46,7 @@ namespace Game
         [SerializeField] Button btnBack;
         [SerializeField] Button btnLanguage;
         [SerializeField] Button btnVolume;
-        [SerializeField] Button btnPreferences, btnHelp;
+        //[SerializeField] Button btnPreferences, btnHelp;
 
 
         [Header("FontMenu")]
@@ -152,8 +152,8 @@ namespace Game
             btnClosePanel.onClick.RemoveAllListeners();
             btnClosePanel.onClick.AddListener(OnCloseVolumePanel);
 
-            btnPreferences.onClick.RemoveAllListeners();
-            btnPreferences.onClick.AddListener(OnClickPreferences);
+            //btnPreferences.onClick.RemoveAllListeners();
+            //btnPreferences.onClick.AddListener(OnClickPreferences);
 
             btnOpenVisualElementPanel.onClick.RemoveAllListeners();
             btnOpenVisualElementPanel.onClick.AddListener(OnClickOpenVisualPanel);
@@ -180,11 +180,11 @@ namespace Game
             if (BookView.gameOpenedFromSettingsInGame)
             {
                 toggleShowTutorialAnswer.gameObject.SetActive(false);
-                btnHelp.gameObject.SetActive(false);
+                //btnHelp.gameObject.SetActive(false);
             }
             else
             {
-                btnHelp.gameObject.SetActive(true);
+                //btnHelp.gameObject.SetActive(true);
                 toggleShowTutorialAnswer.gameObject.SetActive(true);
                 toggleShowTutorialAnswer.onValueChanged.RemoveAllListeners();
                 toggleShowTutorialAnswer.onValueChanged.AddListener(delegate { OnTutorialAnswerToggleValuedChanged(); });
@@ -196,8 +196,8 @@ namespace Game
             btnBack.onClick.RemoveAllListeners();
             btnBack.onClick.AddListener(OnClickBack);
 
-            btnHelp.onClick.RemoveAllListeners();
-            btnHelp.onClick.AddListener(OnClickHelp);
+            //btnHelp.onClick.RemoveAllListeners();
+            //btnHelp.onClick.AddListener(OnClickHelp);
 
             dropdownFontChoice.onValueChanged.RemoveAllListeners();
             dropdownFontChoice.onValueChanged.AddListener(OnSelectedNewFontFromDropdown);

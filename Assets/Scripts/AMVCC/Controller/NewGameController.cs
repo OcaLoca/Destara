@@ -41,9 +41,6 @@ namespace Game
                     View.GetBlackSkulls[0].enabled = true;
                     View.GetBlackSkulls[1].enabled = false;
                     View.GetBlackSkulls[2].enabled = false;
-                    View.GetHighLineAnimators[0].gameObject.SetActive(true);
-                    View.GetHighLineAnimators[1].gameObject.SetActive(false);
-                    View.GetHighLineAnimators[2].gameObject.SetActive(false);
                     GameApplication.Singleton.view.NewGame.btnConfirmSelection.interactable = true;
                     GameApplication.Singleton.view.NewGame.btnConfirmSelection.GetComponent<Animator>().enabled = true;
                     break;
@@ -53,9 +50,7 @@ namespace Game
                     View.GetBlackSkulls[0].enabled = true;
                     View.GetBlackSkulls[1].enabled = true;
                     View.GetBlackSkulls[2].enabled = false;
-                    View.GetHighLineAnimators[0].gameObject.SetActive(false);
-                    View.GetHighLineAnimators[1].gameObject.SetActive(true);
-                    View.GetHighLineAnimators[2].gameObject.SetActive(false);
+                   
                     GameApplication.Singleton.view.NewGame.btnConfirmSelection.interactable = false;
                     GameApplication.Singleton.view.NewGame.btnConfirmSelection.GetComponent<Animator>().enabled = false;
                     break;
@@ -65,9 +60,7 @@ namespace Game
                     View.GetBlackSkulls[0].enabled = true;
                     View.GetBlackSkulls[1].enabled = true;
                     View.GetBlackSkulls[2].enabled = true;
-                    View.GetHighLineAnimators[0].gameObject.SetActive(false);
-                    View.GetHighLineAnimators[1].gameObject.SetActive(false);
-                    View.GetHighLineAnimators[2].gameObject.SetActive(true);
+                   
                     GameApplication.Singleton.view.NewGame.btnConfirmSelection.interactable = false;
                     GameApplication.Singleton.view.NewGame.btnConfirmSelection.GetComponent<Animator>().enabled = false;
                     break;
