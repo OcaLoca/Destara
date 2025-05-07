@@ -92,7 +92,7 @@ Material:
     - _BumpScale: 1
     - _Cull: 2
     - _Cutoff: 0.5
-    - _DissolveAmount: 0.034946702
+    - _DissolveAmount: 0.012922003
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
