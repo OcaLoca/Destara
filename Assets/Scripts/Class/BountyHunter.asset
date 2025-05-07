@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0483bfabf1e810141bf659a837b23a10, type: 3}
+  m_Name: BountyHunter
+  m_EditorClassIdentifier: 
+  maxTorchCount: 6
+  maxPaperCount: 6
+  courage: 80
+  luck: 40
+  superstition: 20
+  classDescriptionKey: 
+  constitution: 100
+  dexterity: 75
+  strength: 85
+  inteligence: 60
+  abilities:
+  - {fileID: 11400000, guid: 382f257af88ec6c46b9e9a45294a74ed, type: 2}
+  - {fileID: 11400000, guid: 37e50c93e39ba804d8bf2e818fbe0bc5, type: 2}
+  - {fileID: 11400000, guid: e789f9edc9119904ab211e75e48512ec, type: 2}
+  - {fileID: 11400000, guid: 50c6bad8901453f4fa5d94c737b69d00, type: 2}
+  finalAbility: {fileID: 11400000, guid: 1c21ca3862a35e2418c88bafc4b17ffb, type: 2}
+  highAbilities:
+  - {fileID: 11400000, guid: 382f257af88ec6c46b9e9a45294a74ed, type: 2}
+  - {fileID: 11400000, guid: 37e50c93e39ba804d8bf2e818fbe0bc5, type: 2}
+  - {fileID: 11400000, guid: e789f9edc9119904ab211e75e48512ec, type: 2}
+  - {fileID: 11400000, guid: 50c6bad8901453f4fa5d94c737b69d00, type: 2}
+  highFinalAbility: {fileID: 11400000, guid: 1c21ca3862a35e2418c88bafc4b17ffb, type: 2}
+  classAnimation: {fileID: 9100000, guid: 8a393bde787da0b4184e1c6054a62b9c, type: 2}
+  equippedClassDefence: {fileID: 11400000, guid: d369e9c3e4f02fc4482603d845f26a50,
+    type: 2}
+  equippedLightDefence: {fileID: 11400000, guid: f71fe436c5808924bbbe6e4fb70ca7dc,
+    type: 2}
+  equippedBalancedDefence: {fileID: 11400000, guid: 4f1b9e0ac52b56d4b93c1263eda37965,
+    type: 2}
+  equippedHeavyDefence: {fileID: 11400000, guid: d369e9c3e4f02fc4482603d845f26a50,
+    type: 2}
+  equippedGemStone: {fileID: 11400000, guid: ddccce9074a649e42a492ca348dd75ef, type: 2}
+  equippedTalisman: {fileID: 11400000, guid: a029e63f91d184d4397239cc53a4c119, type: 2}
+  equippedRelic: {fileID: 11400000, guid: 8e32ed8448bb2bd4dab4bc6b65a7a57e, type: 2}
+  lightWeapon: {fileID: 11400000, guid: c2c412c81025bb4469f640d5b91f6c07, type: 2}
+  heavyWeapon: {fileID: 11400000, guid: 9e5a7844fe52d9544a305fbacb02054a, type: 2}
+  rangeWeapon: {fileID: 11400000, guid: 80fe00d083e83134a813837fbd281f9d, type: 2}
+  specialWeapon: {fileID: 11400000, guid: 09327b7777aad6346a3d09d880fbc135, type: 2}
+  equippedWeapon: {fileID: 0}
+  itemInventory:
+  - {fileID: 11400000, guid: 7b57f5b769ec90e43b8a5c6a8567fc52, type: 2}
+  - {fileID: 11400000, guid: 7b57f5b769ec90e43b8a5c6a8567fc52, type: 2}
+  - {fileID: 11400000, guid: 7b57f5b769ec90e43b8a5c6a8567fc52, type: 2}
+  - {fileID: 11400000, guid: 5fd6b103b5768844a9735923bf973d7d, type: 2}
+  - {fileID: 11400000, guid: 5fd6b103b5768844a9735923bf973d7d, type: 2}
+  - {fileID: 11400000, guid: ce7bdfb89b94f9545af55419aa698470, type: 2}
+  - {fileID: 11400000, guid: ce7bdfb89b94f9545af55419aa698470, type: 2}
+  - {fileID: 11400000, guid: ce7bdfb89b94f9545af55419aa698470, type: 2}
+  - {fileID: 11400000, guid: 353a9a9dfae0e464698791a6a89cae00, type: 2}
+  - {fileID: 11400000, guid: 7b1c33b2338931f488d5dee8486d2491, type: 2}
+  - {fileID: 11400000, guid: fae13cb634bdf7648a35e54d78f7d21f, type: 2}

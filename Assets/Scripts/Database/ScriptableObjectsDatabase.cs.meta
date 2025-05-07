@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 6506e332c3207914d81a9f17585be240
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rangedType: {instanceID: 0}
+  - heavyType: {instanceID: 0}
+  - airAnimal: {fileID: 11400000, guid: 4b6f3d8877773284ab49d7b5f8d9eba7, type: 2}
+  - landAnimal: {fileID: 11400000, guid: f279101579e4e2c46bbeb20308260a42, type: 2}
+  - waterAnimal: {fileID: 11400000, guid: 6f5d7e653a192f146a30f69a7d7be2a0, type: 2}
+  - abbot: {fileID: 11400000, guid: 93c59a897c0ef2e4880a8ea80ab3abf4, type: 2}
+  - crone: {fileID: 11400000, guid: d2b82934adb13a041b44ec82236e9ff6, type: 2}
+  - bountyHunter: {fileID: 11400000, guid: 69ccb96e16e96954482fa2f574cb57e9, type: 2}
+  - trafficker: {fileID: 11400000, guid: e6d9c557bef86fd409e0dde6ceb15828, type: 2}
+  - jollyEquipmentType: {fileID: 11400000, guid: 16e5957d309d973448d04d8b97948f12,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

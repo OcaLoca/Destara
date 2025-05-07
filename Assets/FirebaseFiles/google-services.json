@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "246125603405",
+    "project_id": "aequiliber-demo-android",
+    "storage_bucket": "aequiliber-demo-android.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246125603405:android:ea4c2d10f1214409978a04",
+        "android_client_info": {
+          "package_name": "com.MobyBitGames.AequiLiberDemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIRorlwOe8-Qejek31JJGYj5hSZunQFao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

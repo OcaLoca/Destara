@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 652e161a8ba2b6b468982491b9a30fe6
+timeCreated: 1507551977
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26255
+  packageName: Bad Word Filter PRO
+  packageVersion: 2024.1.1
+  assetPath: Assets/Plugins/crosstales/BadWordFilter/Resources/Prefabs/PunctuationManager.prefab
+  uploadId: 650739

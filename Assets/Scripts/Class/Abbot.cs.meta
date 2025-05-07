@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 363a2cd58e8d59942b867c25fa9e8e28
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - lowSupersttionFinalSkills: {instanceID: 0}
+  - highSupersttionFinalSkills: {instanceID: 0}
+  - equippedEquipement: {instanceID: 0}
+  - lightWeapon: {instanceID: 0}
+  - heavyWeapon: {instanceID: 0}
+  - rangeWeapon: {instanceID: 0}
+  - specialWeapon: {instanceID: 0}
+  - equippedWeapon: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

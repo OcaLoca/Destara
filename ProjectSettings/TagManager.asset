@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - BattleGround
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - RenderBehindAllActors
+  - RenderLeft&RightEnemies
+  - RenderBetweenSidesEnemies&CentralEnemy
+  - RenderCentralEnemy
+  - RenderBetweenCentralEnemy&Player
+  - RenderPlayerAnimation
+  - RenderBetweenPlayer&UI
+  - RenderUI
+  - RenderOverUI
+  - RenderBag
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: RenderBehindAllActors
+    uniqueID: 2297734777
+    locked: 0
+  - name: RenderLeft&RightEnemies
+    uniqueID: 3485413971
+    locked: 0
+  - name: RenderBetweenSidesEnemies&CentralEnemy
+    uniqueID: 3340853969
+    locked: 0
+  - name: RenderCentralEnemy
+    uniqueID: 851207149
+    locked: 0
+  - name: RenderBetweenCentralEnemy&Player
+    uniqueID: 3025879395
+    locked: 0
+  - name: RenderPlayerAnimation
+    uniqueID: 1129583649
+    locked: 0
+  - name: RenderBetweenPlayer&UI
+    uniqueID: 3799597279
+    locked: 0
+  - name: RenderUI
+    uniqueID: 2267039633
+    locked: 0
+  - name: RenderOverUI
+    uniqueID: 4228485783
+    locked: 0
+  - name: RenderBag
+    uniqueID: 2613218573
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  - Light Layer 1
+  - Light Layer 2
+  - Light Layer 3
+  - Light Layer 4
+  - Light Layer 5
+  - Light Layer 6
+  - Light Layer 7

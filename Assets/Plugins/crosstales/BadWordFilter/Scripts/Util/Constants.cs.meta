@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f628f5ee38184617be6a10781abe2bf7
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26255
+  packageName: Bad Word Filter PRO
+  packageVersion: 2024.1.1
+  assetPath: Assets/Plugins/crosstales/BadWordFilter/Scripts/Util/Constants.cs
+  uploadId: 650739

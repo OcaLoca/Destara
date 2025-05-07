@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 753c00b34469b7d4d9791e4c5cfd2225, type: 3}
+  m_Name: Pergamena
+  m_EditorClassIdentifier: 
+  ID: Pergamena
+  itemNameLocalization: Pergamena
+  itemNameLocalized: Pergamena
+  bioDescriptionLocalized: 
+  infoDescriptionLocalized: PergamenaInfo
+  icon: {fileID: 21300000, guid: d08cb53927fffed4fba34747b243247d, type: 3}
+  objectQuantity: 1
+  rarity: 3
+  consumableInFight: 0
+  level: 0
+  itemType: 1
+  onlyInFight: 0
+  maxStackable: 0
+  temporary: 0
+  timeIfTemporary: 0
+  numberOfTurnIfTemporary: 0
+  defaultBuff: 0
+  defaulBuffAmount: 0
+  buffType: 0b000000
+  buffAmount:
+  - 0
+  tartgetType: 0
+  targetQuantity: 0
+  hasASingleBuffes: 0

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c94988401d1b43c419bc2ad38a2b3674, type: 3}
+  m_Name: "Abilit\xE0_ArteMagia"
+  m_EditorClassIdentifier: 
+  localizedID: arteMagia
+  abilityDescription: abilityArteMagicaDsc
+  abilityName: Artemagia
+  abilityConsoleLog: "Artemagia ha inflitto 100 danni! Lupo del re \xE8 paralizzato!"
+  APcost: 20
+  moveType: 00000000
+  abilityLevel: 0
+  rarity: 0
+  applyStateCondition: 0
+  elementalLevel:
+  - 50
+  onlyEnemyAbility: 0
+  defaultCost: 4
+  defaultDamage: 100
+  havePowerUp: 1
+  powerUpDamage: []
+  useWeapon: 0
+  attackType: 0
+  hitChance: 0
+  dontGiveDamage: 0
+  scaledAmount: 0
+  criticalChance: 0
+  elementalHitChance: 32000000
+  buffPercentage: 
+  defaultBuffPercentage: 0
+  upgradeWithPlayerLevel: 0
+  targetCount: 0
+  animationTriggerID: 0
+  VFXID: ArteMagia
+  slowMotionDuration: 0
+  slowMotionTimeScale: 0
+  VFXloop: 0
+  abilityShakeBoard: 0
+  abilityShakeBoardAmount: 0
+  abilitySounds: {fileID: 8300000, guid: ebc605019be95a241811fc7b7a5845b6, type: 3}
+  abilityBuff: 0

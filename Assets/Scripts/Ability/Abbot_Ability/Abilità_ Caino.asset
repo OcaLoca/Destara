@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d841325ad3868924c9276a211941a70e, type: 3}
+  m_Name: "Abilit\xE0_ Caino"
+  m_EditorClassIdentifier: 
+  localizedID: caino
+  description: spiega agli altri cosa fa
+  abilityName: Caino
+  abilityConsoleLog: 
+  moveType: 00000000
+  abilityElement: 2
+  elementalLevel:
+  - 0
+  finalAbility: 0
+  onlyEnemyAbility: 0
+  cost: 2
+  defaultCost: 2
+  hitChance: 80
+  scaledAmount: 0
+  criticalChance: 0
+  havePowerUp: 1
+  abilityDamage: []
+  elementalHitChance: 28000000320000003c000000
+  buffPercentage: 
+  upgradeWithPlayerLevel: 0
+  attackType: 0
+  targetCount: 0
+  abilityBuff: 0

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dad10ffd8d15274f82d5ef6a13f133a, type: 3}
+  m_Name: "Abilit\xE0_ Generica_Tornado"
+  m_EditorClassIdentifier: 
+  localizedID: tornado
+  abilityDescription: spiega agli altri cosa fa
+  abilityName: Tornado
+  abilityConsoleLog: 
+  moveType: 00000000
+  abilityLevel: 0
+  rarity: 0
+  applyStateCondition: 0
+  elementalLevel:
+  - 1
+  onlyEnemyAbility: 1
+  defaultCost: 1
+  defaultDamage: 30
+  havePowerUp: 0
+  powerUpDamage: []
+  useWeapon: 0
+  attackType: 0
+  hitChance: 69
+  dontGiveDamage: 0
+  scaledAmount: 5
+  criticalChance: 13
+  elementalHitChance: 14000000
+  buffPercentage: 04000000
+  defaultBuffPercentage: 0
+  upgradeWithPlayerLevel: 0
+  targetCount: 1
+  animationTriggerID: 0
+  VFXID: 
+  slowMotionDuration: 0.5
+  slowMotionTimeScale: 1
+  VFXloop: 0
+  abilityShakeBoard: 0
+  abilityShakeBoardAmount: 0
+  abilitySounds: {fileID: 0}
+  abilityBuff: 0

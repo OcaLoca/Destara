@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01937e40fd95cec47ba0ad5c67ae8627, type: 3}
+  m_Name: "Abilit\xE0_ Generica_Urlo"
+  m_EditorClassIdentifier: 
+  localizedID: urlo
+  description: -20% Destrezza avversario
+  abilityName: 
+  moveType: 
+  abilityElement: 0
+  elementalLevel: []
+  finalAbility: 0
+  onlyEnemyAbility: 0
+  cost: 2
+  defaultCost: 2
+  hitChance: 90
+  scaledAmount: 0
+  criticalChance: 0
+  havePowerUp: 0
+  abilityDamage: []
+  elementalHitChance: 
+  buffPercentage: 14000000
+  upgradeWithPlayerLevel: 0
+  attackType: 0
+  targetCount: 0
+  abilityBuff: 1

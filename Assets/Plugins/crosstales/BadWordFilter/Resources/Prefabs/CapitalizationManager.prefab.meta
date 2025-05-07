@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 578c34e2186613146981d393dfb59318
+timeCreated: 1507551902
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26255
+  packageName: Bad Word Filter PRO
+  packageVersion: 2024.1.1
+  assetPath: Assets/Plugins/crosstales/BadWordFilter/Resources/Prefabs/CapitalizationManager.prefab
+  uploadId: 650739

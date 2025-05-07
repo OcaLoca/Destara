@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfcca11af630817488630fa88cc984e5, type: 3}
+  m_Name: Scudo-Targa (scudo rettangolare tardo medievale)
+  m_EditorClassIdentifier: 
+  ID: targa
+  itemNameLocalization: Targa
+  itemTitle: 
+  itemDescriptionLocalize: 
+  itemDescription: 
+  icon: {fileID: 0}
+  quantity: 0
+  isConsumable: 0
+  isEquipable: 1
+  isDestroyable: 0
+  isStackable: 0
+  xDimension: 0
+  yDimension: 0
+  rarity: 3
+  isInfluencableByFortune: 0
+  maxStackable: 0
+  itemType: 0
+  defence: 15
+  arcaneDefenceBuffDebuff: 0
+  equipmentType: {fileID: 0}
+  elementalBuff: {fileID: 0}
+  equipPlaceType: 4

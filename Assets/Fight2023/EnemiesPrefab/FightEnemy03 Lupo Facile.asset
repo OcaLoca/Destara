@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b71d874df8bf534792108d791434213, type: 3}
+  m_Name: FightEnemy03 Lupo Facile
+  m_EditorClassIdentifier: 
+  enemyName: Lupo
+  constitution: 90
+  dexterity: 70
+  strength: 50
+  inteligence: 50
+  defence: 5.5
+  defenseType: 0
+  baseAttackType: 2
+  indestructible: 0
+  buffLimit: 0
+  difficult: 0
+  ability:
+  - {fileID: 11400000, guid: 5fdb001769e958948a030290d717c80c, type: 2}
+  isHumanoid: 0
+  isBoss: 0
+  canAttack: 0
+  hp: 900
+  baseAttack: 320
+  level: 1
+  isDead: 0
+  enemyImage: {fileID: 21300000, guid: 95f00e687cf85634185bdf565b11edc7, type: 3}
+  normalMap: {fileID: 2100000, guid: fd2bb739a4e113c459217052edb93883, type: 2}
+  equippedWeapon: []
+  myItems: []
+  elementalLevel: 0
+  animController: {fileID: 9100000, guid: 35721e6a1fca9064e8fafb01b33cda73, type: 2}
+  enemyPSB: {fileID: -8653719598885068355, guid: 1e5d72f0ca52fd44c93f13173669a1ee,
+    type: 3}
+  enemyShadePrefab: {fileID: 5855013837356635675, guid: 5fd3bf8fae95a0d4094260de56096232,
+    type: 3}
+  scale: {x: 100, y: 90, z: 1}
+  localPosition: {x: 70, y: -96, z: 0}
+  finalAbility: {fileID: 0}
+  noStatus: 0
+  baseAttackName: zampata
+  baseAttackSound: {fileID: 8300000, guid: 3a0242bb9e84fef468dbef9befd3f4dc, type: 3}
+  dodgeSound: {fileID: 8300000, guid: 72c4e1f47c35abe48987001ec8898b62, type: 3}
+  battleScreamSound: {fileID: 0}
+  hitSound: {fileID: 8300000, guid: 1dc94331e9dc2ac4c860278af1c1a6a7, type: 3}
+  enemyUISprite: {fileID: 0}
+  battleScream: 
+  equipment: {fileID: 0}
+  weapon: {fileID: 0}

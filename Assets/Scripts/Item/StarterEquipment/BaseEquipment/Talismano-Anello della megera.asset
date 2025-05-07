@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfcca11af630817488630fa88cc984e5, type: 3}
+  m_Name: Talismano-Anello della megera
+  m_EditorClassIdentifier: 
+  ID: AnelloMegera
+  itemNameLocalization: AnelloMegera
+  itemNameLocalized: Anello perla nera
+  bioDescriptionLocalized: "Un anello dai poteri mistici posseduto solo dalle Megere
+    pi\xF9 meritevoli"
+  infoDescriptionLocalized: Minimo Superstizione +50%
+  icon: {fileID: 21300000, guid: 6ec6bf78f0d92b346b69257fe022e430, type: 3}
+  objectQuantity: 1
+  rarity: 4
+  consumableInFight: 0
+  level: 1
+  itemType: 6
+  defence: 25
+  StaminaCost: 0
+  weight: 0
+  arcaneDefenceBuffDebuff: 0
+  equipmentType: {fileID: 0}
+  elementalBuff: {fileID: 11400000, guid: fde0f20f18b19fa4c8ab671033ca9ea4, type: 2}
+  equipPlaceType: 5
+  defenseType: 0
+  hitSound: {fileID: 0}

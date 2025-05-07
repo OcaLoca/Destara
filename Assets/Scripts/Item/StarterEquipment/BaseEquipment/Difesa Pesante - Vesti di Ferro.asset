@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfcca11af630817488630fa88cc984e5, type: 3}
+  m_Name: Difesa Pesante - Vesti di Ferro
+  m_EditorClassIdentifier: 
+  ID: VestiFerro
+  itemNameLocalization: VestiFerro
+  itemNameLocalized: Corazza di ferro
+  bioDescriptionLocalized: VestiFerroBio
+  infoDescriptionLocalized: VestiFerroInfo
+  icon: {fileID: 21300000, guid: f1a335c88d48d4242bc8b4e16f1e95a4, type: 3}
+  objectQuantity: 1
+  rarity: 2
+  consumableInFight: 0
+  level: 1
+  itemType: 4
+  defence: 70
+  StaminaCost: 260
+  weight: 5
+  arcaneDefenceBuffDebuff: 0
+  equipmentType: {fileID: 0}
+  elementalBuff: {fileID: 0}
+  equipPlaceType: 2
+  defenseType: 2
+  hitSound: {fileID: 0}

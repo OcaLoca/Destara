@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f4f83c6d985c0944a501b353774490d, type: 3}
+  m_Name: "Abilit\xE0_Teurgia_Del_Dolore"
+  m_EditorClassIdentifier: 
+  localizedID: teurgiaDelDolore
+  description: spiega agli altri cosa fa
+  abilityName: Teurgia del dolore
+  abilityConsoleLog: 
+  moveType: 01000000
+  abilityElement: 2
+  elementalLevel:
+  - 0
+  finalAbility: 0
+  onlyEnemyAbility: 0
+  cost: 3
+  defaultCost: 3
+  hitChance: 90
+  scaledAmount: 0
+  criticalChance: 20
+  havePowerUp: 0
+  abilityDamage:
+  - 200
+  elementalHitChance: 14000000
+  buffPercentage: 
+  upgradeWithPlayerLevel: 0
+  attackType: 0
+  targetCount: 0
+  abilityBuff: 0

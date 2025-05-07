@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MissingSprites
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 02f5da1239be3df4db6a4d15681625e2, type: 3}
+    - {fileID: 21300000, guid: 508e69e3b7b205c46afa8e6f222e1e23, type: 3}
+    - {fileID: 21300000, guid: 0cbb4e508da4c654b8958ec222d9b038, type: 3}
+    - {fileID: 21300000, guid: 8fa42756444dc26499cf797c6cdb450c, type: 3}
+    - {fileID: 21300000, guid: 2cd89d8a33bbb004083391d0dbe4569e, type: 3}
+    - {fileID: 21300000, guid: a7588e4f3a3e6e645939373e460d177d, type: 3}
+    - {fileID: 21300000, guid: 369cc7372555fdf4281a855ca3723f6b, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 0cbb4e508da4c654b8958ec222d9b038: 21300000
+    - 02f5da1239be3df4db6a4d15681625e2: 21300000
+    - 508e69e3b7b205c46afa8e6f222e1e23: 21300000
+    - 8fa42756444dc26499cf797c6cdb450c: 21300000
+    - 369cc7372555fdf4281a855ca3723f6b: 21300000
+    - 2cd89d8a33bbb004083391d0dbe4569e: 21300000
+    - a7588e4f3a3e6e645939373e460d177d: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 0cbb4e508da4c654b8958ec222d9b038, type: 3}
+  - {fileID: 21300000, guid: 02f5da1239be3df4db6a4d15681625e2, type: 3}
+  - {fileID: 21300000, guid: 508e69e3b7b205c46afa8e6f222e1e23, type: 3}
+  - {fileID: 21300000, guid: 8fa42756444dc26499cf797c6cdb450c, type: 3}
+  - {fileID: 21300000, guid: 369cc7372555fdf4281a855ca3723f6b, type: 3}
+  - {fileID: 21300000, guid: 2cd89d8a33bbb004083391d0dbe4569e, type: 3}
+  - {fileID: 21300000, guid: a7588e4f3a3e6e645939373e460d177d, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Button_off
+  - continue
+  - Button_available
+  - Chiudi_off
+  - Frame
+  - Chiudi_on
+  - Continua_off
+  m_RenderDataMap: {}
+  m_Tag: MissingSprites
+  m_IsVariant: 0

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b71d874df8bf534792108d791434213, type: 3}
+  m_Name: FightEnemy05 Agglomerato Facile
+  m_EditorClassIdentifier: 
+  enemyName: Agglomerato
+  constitution: 110
+  dexterity: 10
+  strength: 6
+  inteligence: 10
+  defence: 4
+  defenseType: 0
+  baseAttackType: 0
+  indestructible: 0
+  buffLimit: 0
+  difficult: 0
+  ability:
+  - {fileID: 11400000, guid: 5fdb001769e958948a030290d717c80c, type: 2}
+  - {fileID: 11400000, guid: 47e9639f5017c8341a670002dd28a4d8, type: 2}
+  isHumanoid: 0
+  isBoss: 0
+  canAttack: 0
+  hp: 1100
+  baseAttack: 300
+  level: 1
+  isDead: 0
+  enemyImage: {fileID: 21300000, guid: c66ceeb45715322428ae17d199f1c390, type: 3}
+  normalMap: {fileID: 2100000, guid: fd2bb739a4e113c459217052edb93883, type: 2}
+  equippedWeapon: []
+  myItems: []
+  elementalLevel: 0
+  animController: {fileID: 9100000, guid: 4285e40023c6e2a4888ccf1673f23cc9, type: 2}
+  enemyPSB: {fileID: -8653719598885068355, guid: 1e5d72f0ca52fd44c93f13173669a1ee,
+    type: 3}
+  enemyShadePrefab: {fileID: 1624870694447007824, guid: 75bbd64af5e06fc459592cd4abd0b835,
+    type: 3}
+  scale: {x: 80, y: 80, z: 1}
+  localPosition: {x: 0, y: -50, z: 0}
+  finalAbility: {fileID: 0}
+  noStatus: 0
+  baseAttackName: zampata
+  baseAttackSound: {fileID: 8300000, guid: 1dc94331e9dc2ac4c860278af1c1a6a7, type: 3}
+  dodgeSound: {fileID: 8300000, guid: 72c4e1f47c35abe48987001ec8898b62, type: 3}
+  battleScreamSound: {fileID: 0}
+  hitSound: {fileID: 8300000, guid: 1dc94331e9dc2ac4c860278af1c1a6a7, type: 3}
+  enemyUISprite: {fileID: 0}
+  battleScream: 
+  equipment: {fileID: 0}
+  weapon: {fileID: 0}

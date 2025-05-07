@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 294452d9d2493874496f76ebd538cfb6, type: 3}
+  m_Name: "Abilit\xE0_Maledizione"
+  m_EditorClassIdentifier: 
+  localizedID: blackTouch
+  abilityDescription: abilityMaledizioneDsc
+  abilityName: Tocco nero
+  abilityConsoleLog: "Tocco nero ha inflitto 600 danni! Lupo del re \xE8 avvelenato!"
+  APcost: 50
+  moveType: 00000000
+  abilityLevel: 5
+  rarity: 3
+  applyStateCondition: 4
+  elementalLevel:
+  - 30
+  onlyEnemyAbility: 0
+  defaultCost: 5
+  defaultDamage: 300
+  havePowerUp: 0
+  powerUpDamage: []
+  useWeapon: 0
+  attackType: 0
+  hitChance: 0
+  dontGiveDamage: 0
+  scaledAmount: 0
+  criticalChance: 0
+  elementalHitChance: 
+  buffPercentage: 
+  defaultBuffPercentage: 0
+  upgradeWithPlayerLevel: 0
+  targetCount: 0
+  animationTriggerID: 0
+  VFXID: ToccoNero
+  slowMotionDuration: 0
+  slowMotionTimeScale: 0
+  VFXloop: 0
+  abilityShakeBoard: 0
+  abilityShakeBoardAmount: 0
+  abilitySounds: {fileID: 8300000, guid: 871d6761b43bf9745b0299e870362eec, type: 3}
+  abilityBuff: 0

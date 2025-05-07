@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1cdba4e9449d61a44b6576373df52437
+timeCreated: 1537711865
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26255
+  packageName: Bad Word Filter PRO
+  packageVersion: 2024.1.1
+  assetPath: Assets/Plugins/crosstales/BadWordFilter/Resources/Data/special/emoji.asset
+  uploadId: 650739

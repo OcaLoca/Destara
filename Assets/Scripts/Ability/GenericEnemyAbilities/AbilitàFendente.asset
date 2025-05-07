@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dad10ffd8d15274f82d5ef6a13f133a, type: 3}
+  m_Name: "Abilit\xE0Fendente"
+  m_EditorClassIdentifier: 
+  localizedID: Fendente
+  abilityDescription: spiega agli altri cosa fa
+  abilityName: Fendente
+  abilityConsoleLog: Viandante usa Fendenteeeeeee
+  APcost: 0
+  moveType: 00000000
+  abilityLevel: 0
+  rarity: 0
+  applyStateCondition: 0
+  elementalLevel: []
+  onlyEnemyAbility: 1
+  defaultCost: 0
+  defaultDamage: 200
+  havePowerUp: 0
+  powerUpDamage: []
+  useWeapon: 0
+  attackType: 1
+  hitChance: 0
+  dontGiveDamage: 0
+  scaledAmount: 7
+  criticalChance: 15
+  elementalHitChance: 16000000
+  buffPercentage: 05000000
+  defaultBuffPercentage: 0
+  upgradeWithPlayerLevel: 0
+  targetCount: 1
+  animationTriggerID: 0
+  VFXID: Fendente
+  slowMotionDuration: 1
+  slowMotionTimeScale: 0.5
+  VFXloop: 0
+  abilityShakeBoard: 0
+  abilityShakeBoardAmount: 0
+  abilitySounds: {fileID: 8300000, guid: 40be9b105f32cb343bf2842ee125f2ae, type: 3}
+  abilityBuff: 0
+  useBaseAttackDamageScale: 0
+  baseAttackDamageMoltiplicator: 0

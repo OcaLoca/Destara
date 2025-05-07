@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43e3102722a942e4395ff46df6a73794, type: 3}
+  m_Name: ScappaOutlineAltaDx
+  m_EditorClassIdentifier: 
+  imageToRender: {fileID: 2800000, guid: 7d3371f660dab604aa239bb8d0f05435, type: 3}
+  chapterSection: 3
+  imageID: 
+  xPosition: -350
+  yPosition: -350
+  xValue: 908
+  yValue: 1180
+  changex: 0.8
+  changey: 0.8
+  changeDepth: 0
+  alpha: 0.9
+  isAllPage: 0

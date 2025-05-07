@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfcca11af630817488630fa88cc984e5, type: 3}
+  m_Name: Difesa Leggera - Tunica del crepuscolo
+  m_EditorClassIdentifier: 
+  ID: TunicaCrepuscolo
+  itemNameLocalization: TunicaCrepuscolo
+  itemNameLocalized: Tunica del crepuscolo
+  bioDescriptionLocalized: TunicaCrepuscoloBio
+  infoDescriptionLocalized: TunicaCrepuscoloInfo
+  icon: {fileID: 21300000, guid: ca369321d6e299243bca46b826973ce9, type: 3}
+  objectQuantity: 1
+  rarity: 2
+  consumableInFight: 0
+  level: 1
+  itemType: 4
+  defence: 60
+  StaminaCost: 450
+  weight: 2
+  arcaneDefenceBuffDebuff: 0
+  equipmentType: {fileID: 0}
+  elementalBuff: {fileID: 0}
+  equipPlaceType: 0
+  defenseType: 0
+  hitSound: {fileID: 0}

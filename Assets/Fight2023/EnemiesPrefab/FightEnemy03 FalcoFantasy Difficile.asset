@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b71d874df8bf534792108d791434213, type: 3}
+  m_Name: FightEnemy03 FalcoFantasy Difficile
+  m_EditorClassIdentifier: 
+  enemyName: FalcoFantasy
+  ID: Falcaccio
+  constitution: 200
+  dexterity: 10
+  strength: 10
+  inteligence: 9.5
+  defence: 8.5
+  defenseType: 0
+  baseAttackType: 0
+  indestructible: 0
+  buffLimit: 0
+  difficult: 0
+  ability: []
+  isHumanoid: 0
+  isBoss: 0
+  canAttack: 0
+  hp: 2000
+  baseAttack: 40
+  level: 7
+  isDead: 0
+  enemyImage: {fileID: 21300000, guid: 69718eb9e508aa44ca755a895cd4ea60, type: 3}
+  normalMap: {fileID: 2100000, guid: fd2bb739a4e113c459217052edb93883, type: 2}
+  equippedWeapon: []
+  myItems: []
+  elementalLevel: 0
+  animController: {fileID: 9100000, guid: dd7ad7b88e3f6f24ca548ed2f814a372, type: 2}
+  enemyPSB: {fileID: -8653719598885068355, guid: 0fe4dbcea61cbb94c86a563d079cf43f,
+    type: 3}
+  enemyShadePrefab: {fileID: 0}
+  scale: {x: 70, y: 75, z: 0}
+  localPosition: {x: 250, y: 150, z: 0}
+  finalAbility: {fileID: 11400000, guid: 57c979a24b7666c4cbaef51c53d10932, type: 2}
+  noStatus: 0
+  baseAttackName: beccata
+  baseAttackSound: {fileID: 0}
+  dodgeSound: {fileID: 0}
+  battleScreamSound: {fileID: 0}
+  hitSound: {fileID: 0}
+  enemyUISprite: {fileID: 0}
+  battleScream: 
+  equipment: {fileID: 0}
+  weapon: {fileID: 0}

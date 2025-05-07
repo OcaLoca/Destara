@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378dbdf4673726244b57bf8bd574c651, type: 3}
+  m_Name: '[02Scappa06a]CadiNelVuotoGuardie'
+  m_EditorClassIdentifier: 
+  decorationFadeIn: 0
+  fadeInFromZero: 0
+  haveCheckpoint: 0
+  chapterSection: 3
+  scriptableRiddle: {fileID: 0}
+  pageID: cadiNelVuotoGuardie
+  changeByTime: 0
+  beforeTitle: 0
+  writeThisTxtUnderButton: 0
+  pageOpenDemoView: 0
+  HaveAnalyzeButton: 1
+  playerDead: 0
+  pageBeforeDeath: 0
+  txtTitle: 
+  txtSubtitle: 
+  title: 0
+  subtitleID: fugaAlChiaroDiLuna
+  chapterNumber: II
+  romanPageNumber: 
+  randomString: 
+  containPlayerName: 0
+  clickAndDrop: 0
+  dropped: 0
+  containGenericDrop: 0
+  battleDropReward: {fileID: 0}
+  battleXPGain: 0
+  statsVariations: []
+  dontSave: 0
+  saveOnOpenPage: 0
+  effectAudioID: 
+  haveEffectAudio: 0
+  effectAudioVolume: 0
+  effectWithLoop: 0
+  effectStartDelay: 0
+  soundBackground: 2
+  localizationValues:
+    containPlayerName: 0
+    containClass: 0
+    isAbbot: 0
+    isCrone: 0
+    isHunter: 0
+    isTrafficker: 0
+    containARandomString: 0
+  buffAppliedOnCurrentPage: 0
+  pageBuffes: []
+  pageFeatures:
+    showAnHideChoice: 0
+    lockedChoice: 1
+    hideClickedButton: 0
+    containRiddle: 0
+    onlyImage: 0
+    unlockMuseumImage: 0
+    isEscapeRoom: 0
+    unlockImageID: 
+    unlockByClickedButton: 0
+  loadDifferentID: 1
+  showHideButtonRequirementsType: 0
+  showHideButtonConditions:
+    courageToUnlock: 0
+    pageToUnlockShowBtn: []
+    numberPageToUnlock: 0
+  lockedChoiceType: 3
+  lockedChoiceConditions:
+    courageToUnlock: 0
+    pageToRead: 
+    itemToUnlock: {fileID: 0}
+  choicesButtons:
+  - buttonText: ANALIZZA
+    pageID: 
+    highSuperstitionPageID: 
+    minSuperstitionPageID: 
+    minAmountSuperstition: 0
+    LuckyPageID: 
+    CasualPageID: 
+    minAmountLucky: 0
+    noCourageText: 
+    cowardDifficult: 
+    fearlessDifficult: 
+    insaneDifficult: 
+    buttonToClick: []
+    playerClickedTheButton: 
+    afterRepeatThisPageID: 
+    loadStatsChangedPanel: 0
+    onlyOnce: 0
+    hideButton: 0
+    lockedButton: 0
+    attackButton: 0
+    deathButton: 0
+    btnLoadDifferentPageForSex: 0
+    btnLoadDifferentPageForClass: 0
+    clickAndDrop: 0
+    keyItemID: 
+    changeIDByButtonClicked: 0
+    analyzeButton: 1
+    buffDebuffLifePointCurrentPage: 0
+    buffDebuffExperienceCurrentPage: 0
+    audio: {fileID: 0}
+    borderColor:
+      serializedVersion: 2
+      rgba: 16777215
+    loadDifferentID: 0
+  - buttonText: cadiNelVuototst
+    pageID: fightGuardieCittadine
+    highSuperstitionPageID: fightGuardieCittadine+
+    minSuperstitionPageID: 
+    minAmountSuperstition: 0
+    LuckyPageID: 
+    CasualPageID: 
+    minAmountLucky: 0
+    noCourageText: 
+    cowardDifficult: 
+    fearlessDifficult: 
+    insaneDifficult: 
+    buttonToClick: []
+    playerClickedTheButton: 
+    afterRepeatThisPageID: 
+    loadStatsChangedPanel: 0
+    onlyOnce: 0
+    hideButton: 0
+    lockedButton: 0
+    attackButton: 1
+    deathButton: 0
+    btnLoadDifferentPageForSex: 0
+    btnLoadDifferentPageForClass: 0
+    clickAndDrop: 0
+    keyItemID: 
+    changeIDByButtonClicked: 0
+    analyzeButton: 0
+    buffDebuffLifePointCurrentPage: 0
+    buffDebuffExperienceCurrentPage: 0
+    audio: {fileID: 0}
+    borderColor:
+      serializedVersion: 2
+      rgba: 0
+    loadDifferentID: 0
+  analyzeComponentStruct:
+    lblCharacterDescription: analyzeGuard
+    heightContentCharacterDescription: 1300
+    lblCharacterName: GuardiaCittadina
+    sprCharacterSprite: {fileID: 21300000, guid: 4cd0bd6f7fa6b734289beb3599c8e331,
+      type: 3}
+    sprBackgroundSprite: {fileID: 21300000, guid: 3e8eec0dbb50d0d428513617233f9332,
+      type: 3}
+    DefenceIcon: {fileID: 0}
+    scaleSize: {x: 170, y: 150, z: 1}
+    isEnemyFight: 1
+    lblCharacterLevel: 2
+    lblCharacterLife: 900
+    lblCharacterDefencesNumber: ???
+    lblCharacterAbilityNumber: ???
+    lblCharacterAttackValue: ???
+    lblCharacterAttackType: ???
+    lblCharacterDefenceValue: 90
+    lblCharacterDefenceType: Heavy
+    threat: 1
+    difficult: 0
+  winOrLoseFightID:
+    winFightID: 
+    loseFightID: 
+    anotherWinFightID: 
+    anotherLoseFightID: 
+  repeatThisPage: 0
+  btnsToRemove: 0
+  introLogTxtID: 
+  easyDifficultEnemy: []
+  mediumDifficultEnemy: []
+  hardDifficultEnemy: []
+  mobID: []
+  allyID: []
+  searchDrop: []
+  readAndDrop: []
+  readAndDropQuantity: 
+  CowardItemList: []
+  FearlessItemList: []
+  InsaneItemList: []

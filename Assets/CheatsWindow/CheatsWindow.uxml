@@ -1,0 +1,46 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Label text="Cheats" name="lblCheats" usage-hints="None" enable-rich-text="true" style="position: relative; right: auto; align-items: center; justify-content: center; -unity-text-align: upper-center; font-size: 20px; color: rgb(255, 255, 255); height: 33px;">
+        <ui:VisualElement style="height: 26px; width: 176px;" />
+    </ui:Label>
+    <ui:Foldout text="Load page by click" value="false" name="PageID" style="overflow: visible; height: auto; visibility: visible; display: flex;">
+        <ui:Button text="Scelta classe" name="btnSceltaClasse" />
+        <ui:Button text="Primo fight" name="btnFirstFight" />
+        <ui:Button text="DopoPrimoFight" name="btnArrivaStraniero" />
+        <ui:Button text="Fight Macellaio" name="btnSecondoFight" style="-unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgb(87, 87, 87);" />
+        <ui:Button text="Capitolo InVinoVeritas" name="btnInVinoVeritas" />
+        <ui:Button text="Capitolo Scappa" name="btnCapitoloScappa" />
+        <ui:Button text="VsGuardiaCit" name="btnCadi" />
+        <ui:Button text="VsPantegana" name="btnMemorie" />
+        <ui:Button text="VsCane" name="btnFightCane" />
+        <ui:Button text="VsFalco" name="btnFightGufo" />
+        <ui:Button text="VsUbriaco" name="btnMouse" />
+        <ui:Button text="DuraLex Capitolo 3.1" name="btnDuraLex" />
+        <ui:Button text="Convinci guardia celle" name="btnConvinciGuardiaCelle" />
+        <ui:Button text="Oscurità inizio" name="btnOscurita" />
+        <ui:Button text="Gioca a carte con moribondo" name="btnPlayCards" />
+        <ui:Button text="Enigma nel buio" name="btnDarkRiddle" />
+    </ui:Foldout>
+    <ui:Foldout text="Classe" value="false" style="overflow: visible; height: auto;">
+        <ui:Button text="Abate" name="btnAbbot" />
+        <ui:Button text="Cacciatore" name="btnBounty" />
+        <ui:Button text="Megera" name="btnCrone" />
+        <ui:Button text="Trafficante" name="btnTrafficker" />
+    </ui:Foldout>
+    <ui:Foldout text="BookStats" value="false" name="BookValue" style="margin-bottom: 15px; display: flex; visibility: visible; overflow: hidden; flex-direction: column-reverse; height: auto;">
+        <ui:Slider picking-mode="Ignore" label="Superstition" value="42" high-value="100" name="sldChangeSuperstition" />
+        <ui:Slider picking-mode="Ignore" label="Courage" value="42" high-value="100" name="sldChangeCourage" />
+        <ui:Slider picking-mode="Ignore" label="Lucky" value="42" high-value="100" name="sldChangeLucky" />
+    </ui:Foldout>
+    <ui:Foldout text="FightStats" value="false" name="FightValue" style="margin-bottom: 15px; overflow: hidden;">
+        <ui:Slider picking-mode="Ignore" label="Strenght" value="42" high-value="100" name="sldChangeStrenght" />
+        <ui:Slider picking-mode="Ignore" label="Defence" value="42" high-value="100" name="sldChangeDefence" />
+        <ui:Slider picking-mode="Ignore" label="Costitution" value="42" high-value="100" name="sldChangeConstitution" />
+        <ui:Slider picking-mode="Ignore" label="Dexterity" value="42" high-value="100" name="sldChangeDexterity" />
+        <ui:Slider picking-mode="Ignore" label="Inteligence" value="42" high-value="100" name="sldChangeInteligence" />
+        <ui:Slider picking-mode="Ignore" label="EXP" value="42" high-value="100" name="sldChangeExp" />
+        <ui:Slider picking-mode="Ignore" label="Life Points" value="42" high-value="1200" name="sldChangeLifePoints" />
+    </ui:Foldout>
+    <ui:TextField picking-mode="Ignore" label="Change page by ID" value="filler text" name="txtFieldPageID" style="margin-bottom: 15px; height: 32px;" />
+    <ui:TextField picking-mode="Ignore" label="Add item by ID" value="Item ID" name="txtFieldItemID" style="margin-bottom: 15px; padding-top: 10px; height: 42px;" />
+    <ui:Button text="SpeedPlay" name="btnPlay" style="height: 30px; display: none;" />
+</ui:UXML>

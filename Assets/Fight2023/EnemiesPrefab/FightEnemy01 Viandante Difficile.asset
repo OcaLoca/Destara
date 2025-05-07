@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b71d874df8bf534792108d791434213, type: 3}
+  m_Name: FightEnemy01 Viandante Difficile
+  m_EditorClassIdentifier: 
+  enemyName: Viandante
+  ID: viandanterealistico
+  constitution: 85
+  dexterity: 80
+  strength: 75
+  inteligence: 60
+  defence: 60
+  defenseType: 0
+  baseAttackType: 0
+  indestructible: 0
+  buffLimit: 0
+  difficult: 2
+  ability:
+  - {fileID: 11400000, guid: 426b7d72815e74c4299bccce43acc5ee, type: 2}
+  - {fileID: 11400000, guid: d5f304153ddf44a498fd22dcac0823a2, type: 2}
+  isHumanoid: 0
+  isBoss: 0
+  canAttack: 0
+  hp: 850
+  baseAttack: 14
+  level: 4
+  isDead: 0
+  enemyImage: {fileID: 21300000, guid: 5198b44648b40b14c9d9220f54cabaff, type: 3}
+  normalMap: {fileID: 2100000, guid: 9d2f6f5985f81bf49aaee42a1fc2359e, type: 2}
+  equippedWeapon: []
+  myItems: []
+  elementalLevel: 0
+  animController: {fileID: 9100000, guid: c174e941e41ae214e93e189b2ecfb2e6, type: 2}
+  enemyPSB: {fileID: -8653719598885068355, guid: 5abdeb813d2c2854993027fd858a9291,
+    type: 3}
+  scale: {x: 150, y: 150, z: 1}
+  localPosition: {x: -60, y: -60, z: 1}
+  finalAbility: {fileID: 0}
+  noStatus: 0
+  baseAttackName: bastonata
+  baseAttackSound: {fileID: 0}
+  dodgeSound: {fileID: 0}
+  battleScreamSound: {fileID: 0}
+  hitSound: {fileID: 0}
+  enemyUISprite: {fileID: 1635405169, guid: eaf37289f4115b04b9464b0028e1e172, type: 3}
+  battleScream: 
+  equipment: {fileID: 0}
+  weapon: {fileID: 11400000, guid: 9e5a7844fe52d9544a305fbacb02054a, type: 2}

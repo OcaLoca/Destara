@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378dbdf4673726244b57bf8bd574c651, type: 3}
+  m_Name: '[01AllaSalute15-]rimaniAlPianoTerra'
+  m_EditorClassIdentifier: 
+  decorationFadeIn: 0
+  fadeInFromZero: 0
+  haveCheckpoint: 0
+  chapterSection: 0
+  scriptableRiddle: {fileID: 0}
+  pageID: rimaniAlPianoTerra
+  changeByTime: 0
+  beforeTitle: 0
+  writeThisTxtUnderButton: 0
+  pageOpenDemoView: 0
+  HaveAnalyzeButton: 1
+  playerDead: 0
+  pageBeforeDeath: 0
+  txtTitle: 
+  txtSubtitle: 
+  title: 0
+  subtitleID: unUltimoBoccale
+  chapterNumber: I
+  romanPageNumber: 
+  randomString: 
+  containPlayerName: 0
+  clickAndDrop: 0
+  dropped: 0
+  containGenericDrop: 1
+  battleDropReward: {fileID: 0}
+  battleXPGain: 0
+  statsVariations: []
+  dontSave: 0
+  saveOnOpenPage: 0
+  effectAudioID: 
+  haveEffectAudio: 0
+  effectAudioVolume: 0
+  effectWithLoop: 0
+  effectStartDelay: 0
+  soundBackground: 1
+  localizationValues:
+    containPlayerName: 0
+    containClass: 0
+    isAbbot: 0
+    isCrone: 0
+    isHunter: 0
+    isTrafficker: 0
+    containARandomString: 0
+  buffAppliedOnCurrentPage: 0
+  pageBuffes: []
+  pageFeatures:
+    showAnHideChoice: 0
+    lockedChoice: 0
+    hideClickedButton: 0
+    containRiddle: 0
+    onlyImage: 0
+    unlockMuseumImage: 0
+    isEscapeRoom: 0
+    unlockImageID: BulloID
+    unlockByClickedButton: 0
+  loadDifferentID: 4
+  showHideButtonRequirementsType: 0
+  showHideButtonConditions:
+    courageToUnlock: 0
+    pageToUnlockShowBtn: []
+    numberPageToUnlock: 0
+  lockedChoiceType: 0
+  lockedChoiceConditions:
+    courageToUnlock: 0
+    pageToRead: 
+    itemToUnlock: {fileID: 0}
+  choicesButtons:
+  - buttonText: ANALIZZA
+    pageID: 
+    highSuperstitionPageID: 
+    minSuperstitionPageID: 
+    minAmountSuperstition: 0
+    LuckyPageID: 
+    CasualPageID: 
+    minAmountLucky: 0
+    noCourageText: 
+    cowardDifficult: 
+    fearlessDifficult: 
+    insaneDifficult: 
+    buttonToClick: []
+    playerClickedTheButton: 
+    afterRepeatThisPageID: 
+    loadStatsChangedPanel: 0
+    onlyOnce: 0
+    hideButton: 0
+    lockedButton: 0
+    attackButton: 0
+    deathButton: 0
+    btnLoadDifferentPageForSex: 0
+    btnLoadDifferentPageForClass: 0
+    clickAndDrop: 0
+    keyItemID: 
+    changeIDByButtonClicked: 0
+    analyzeButton: 1
+    buffDebuffLifePointCurrentPage: 0
+    buffDebuffExperienceCurrentPage: 0
+    audio: {fileID: 0}
+    borderColor:
+      serializedVersion: 2
+      rgba: 16777215
+    loadDifferentID: 0
+  - buttonText: rimaniAlPianoTerra_ts1
+    pageID: fightPorco
+    highSuperstitionPageID: 
+    minSuperstitionPageID: 
+    minAmountSuperstition: 0
+    LuckyPageID: 
+    CasualPageID: 
+    minAmountLucky: 0
+    noCourageText: 
+    cowardDifficult: 
+    fearlessDifficult: 
+    insaneDifficult: 
+    buttonToClick: []
+    playerClickedTheButton: 
+    afterRepeatThisPageID: 
+    loadStatsChangedPanel: 0
+    onlyOnce: 0
+    hideButton: 0
+    lockedButton: 0
+    attackButton: 1
+    deathButton: 0
+    btnLoadDifferentPageForSex: 0
+    btnLoadDifferentPageForClass: 0
+    clickAndDrop: 0
+    keyItemID: 
+    changeIDByButtonClicked: 0
+    analyzeButton: 0
+    buffDebuffLifePointCurrentPage: 0
+    buffDebuffExperienceCurrentPage: 0
+    audio: {fileID: 0}
+    borderColor:
+      serializedVersion: 2
+      rgba: 16777215
+    loadDifferentID: 0
+  - buttonText: rimaniAlPianoTerra_ts2
+    pageID: scappaDalMacellaio
+    highSuperstitionPageID: 
+    minSuperstitionPageID: 
+    minAmountSuperstition: 0
+    LuckyPageID: 
+    CasualPageID: scappaDalMacellaio
+    minAmountLucky: 0
+    noCourageText: 
+    cowardDifficult: 
+    fearlessDifficult: 
+    insaneDifficult: 
+    buttonToClick: []
+    playerClickedTheButton: 
+    afterRepeatThisPageID: 
+    loadStatsChangedPanel: 1
+    onlyOnce: 0
+    hideButton: 0
+    lockedButton: 0
+    attackButton: 0
+    deathButton: 0
+    btnLoadDifferentPageForSex: 0
+    btnLoadDifferentPageForClass: 0
+    clickAndDrop: 0
+    keyItemID: 
+    changeIDByButtonClicked: 0
+    analyzeButton: 0
+    buffDebuffLifePointCurrentPage: 0
+    buffDebuffExperienceCurrentPage: 0
+    audio: {fileID: 0}
+    borderColor:
+      serializedVersion: 2
+      rgba: 4287192660
+    loadDifferentID: 5
+  analyzeComponentStruct:
+    lblCharacterDescription: analyzeButcher
+    heightContentCharacterDescription: 2000
+    lblCharacterName: butcher
+    sprCharacterSprite: {fileID: 21300000, guid: 133afd307944de548ad1623770d2dd4a,
+      type: 3}
+    sprBackgroundSprite: {fileID: 21300000, guid: c973b0dc7b3bf86419f2bf3615a02394,
+      type: 3}
+    DefenceIcon: {fileID: 0}
+    scaleSize: {x: 150, y: 150, z: 1}
+    isEnemyFight: 1
+    lblCharacterLevel: 10
+    lblCharacterLife: 2000
+    lblCharacterDefencesNumber: 01
+    lblCharacterAbilityNumber: 04
+    lblCharacterAttackValue: ???
+    lblCharacterAttackType: ???
+    lblCharacterDefenceValue: ???
+    lblCharacterDefenceType: Light
+    threat: 1
+    difficult: 2
+  winOrLoseFightID:
+    winFightID: 
+    loseFightID: 
+    anotherWinFightID: 
+    anotherLoseFightID: 
+  repeatThisPage: 0
+  btnsToRemove: 0
+  introLogTxtID: 
+  easyDifficultEnemy: []
+  mediumDifficultEnemy: []
+  hardDifficultEnemy: []
+  mobID: []
+  allyID: []
+  searchDrop: []
+  readAndDrop: []
+  readAndDropQuantity: 
+  CowardItemList: []
+  FearlessItemList: []
+  InsaneItemList: []

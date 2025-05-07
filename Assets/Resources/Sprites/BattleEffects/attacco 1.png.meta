@@ -1,0 +1,618 @@
+fileFormatVersion: 2
+guid: f38d9db139f6c6440aca14d56a6b17b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4540450814910778022
+    second: attacco 1_0
+  - first:
+      213: 3548180596749219719
+    second: attacco 1_1
+  - first:
+      213: 7714982044954127948
+    second: attacco 1_2
+  - first:
+      213: -8336821052048758022
+    second: attacco 1_3
+  - first:
+      213: 4479169924390951737
+    second: attacco 1_4
+  - first:
+      213: 824012316732621612
+    second: attacco 1_5
+  - first:
+      213: 4591109548028139332
+    second: attacco 1_6
+  - first:
+      213: -4519681042416481374
+    second: attacco 1_7
+  - first:
+      213: 958038237519064349
+    second: attacco 1_8
+  - first:
+      213: 3340567131091377227
+    second: attacco 1_9
+  - first:
+      213: -3190776973066054763
+    second: attacco 1_10
+  - first:
+      213: 3155781849339297224
+    second: attacco 1_11
+  - first:
+      213: 7559750831525591200
+    second: attacco 1_12
+  - first:
+      213: 7324362782874918006
+    second: attacco 1_13
+  - first:
+      213: 7695580878592326875
+    second: attacco 1_14
+  - first:
+      213: -7530421921826377975
+    second: attacco 1_15
+  - first:
+      213: -3424923044696757282
+    second: attacco 1_16
+  - first:
+      213: -9116844343084952527
+    second: attacco 1_17
+  - first:
+      213: 6383007333856383529
+    second: attacco 1_18
+  - first:
+      213: 632544179915047741
+    second: attacco 1_19
+  - first:
+      213: -1611262115045445266
+    second: attacco 1_20
+  - first:
+      213: -9031907013650495100
+    second: attacco 1_21
+  - first:
+      213: -8087830037711399605
+    second: attacco 1_22
+  - first:
+      213: 5396307045772185914
+    second: attacco 1_23
+  - first:
+      213: 7538627116004788332
+    second: attacco 1_24
+  - first:
+      213: 9012878496674282960
+    second: attacco 1_25
+  - first:
+      213: -8188211703289633154
+    second: attacco 1_26
+  - first:
+      213: 6525399583742669288
+    second: attacco 1_27
+  - first:
+      213: -2926280984633785712
+    second: attacco 1_28
+  - first:
+      213: 2603711928341960488
+    second: attacco 1_29
+  - first:
+      213: 7207027494259429431
+    second: attacco 1_30
+  - first:
+      213: 3493518355753768607
+    second: attacco 1_31
+  - first:
+      213: 8588046889659564495
+    second: attacco 1_32
+  - first:
+      213: 9171053530311933126
+    second: attacco 1_33
+  - first:
+      213: 4048387825757474457
+    second: attacco 1_34
+  - first:
+      213: 8594829680731431798
+    second: attacco 1_35
+  - first:
+      213: -303850829440259386
+    second: attacco 1_36
+  - first:
+      213: -6018064660369482211
+    second: attacco 1_37
+  - first:
+      213: 3665281000791574366
+    second: attacco 1_38
+  - first:
+      213: 6298305705499855268
+    second: attacco 1_39
+  - first:
+      213: 8873645580096707106
+    second: attacco 1_40
+  - first:
+      213: -8451228581705081348
+    second: attacco 1_41
+  - first:
+      213: -4941100912539949711
+    second: attacco 1_42
+  - first:
+      213: 3043267327974000136
+    second: attacco 1_43
+  - first:
+      213: 1584286745169547018
+    second: attacco 1_44
+  - first:
+      213: -1022544743832299121
+    second: attacco 1_45
+  - first:
+      213: -2770557776752116016
+    second: attacco 1_46
+  - first:
+      213: 4759042988998773641
+    second: attacco 1_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: attacco 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aac3e6b5fbe20f30800000000000000
+      internalID: 4540450814910778022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attacco 1_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787bb24247bad3130800000000000000
+      internalID: 3548180596749219719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attacco 1_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ee10e4b4f111b60800000000000000
+      internalID: 7714982044954127948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attacco 1_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afaa2ac6c69ad4c80800000000000000
+      internalID: -8336821052048758022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attacco 1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b9fe78055392e30800000000000000
+      internalID: 4479169924390951737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attacco 1_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23056516da7f6b00800000000000000
+      internalID: 824012316732621612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attacco 1_6
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4471f172fc5e6bf30800000000000000
+      internalID: 4591109548028139332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attacco 1_7
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abc2b8c90ed641c0800000000000000
+      internalID: -4519681042416481374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attacco 1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1da09c73b2ab4d00800000000000000
+      internalID: 958038237519064349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attacco 1_9
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c1c0d4b141c5e20800000000000000
+      internalID: 3340567131091377227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attacco 1_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593d6ea9f3518b3d0800000000000000
+      internalID: -3190776973066054763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attacco 1_11
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd7e763fd69bcb20800000000000000
+      internalID: 3155781849339297224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attacco 1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8fb87f351a9e860800000000000000
+      internalID: 7559750831525591200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attacco 1_13
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cd957152d55a560800000000000000
+      internalID: 7324362782874918006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attacco 1_14
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcb8c049023cca60800000000000000
+      internalID: 7695580878592326875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attacco 1_15
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f69b4f8219e7790800000000000000
+      internalID: -7530421921826377975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      attacco 1_3: -8336821052048758022
+      attacco 1_0: 4540450814910778022
+      attacco 1_11: 3155781849339297224
+      attacco 1_13: 7324362782874918006
+      attacco 1_9: 3340567131091377227
+      attacco 1_10: -3190776973066054763
+      attacco 1_4: 4479169924390951737
+      attacco 1_2: 7714982044954127948
+      attacco 1_1: 3548180596749219719
+      attacco 1_15: -7530421921826377975
+      attacco 1_12: 7559750831525591200
+      attacco 1_7: -4519681042416481374
+      attacco 1_6: 4591109548028139332
+      attacco 1_14: 7695580878592326875
+      attacco 1_5: 824012316732621612
+      attacco 1_8: 958038237519064349
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

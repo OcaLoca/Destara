@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378dbdf4673726244b57bf8bd574c651, type: 3}
+  m_Name: '[01AllaSalute9]Menestrello'
+  m_EditorClassIdentifier: 
+  decorationFadeIn: 0
+  fadeInFromZero: 0
+  haveCheckpoint: 0
+  chapterSection: 2
+  scriptableRiddle: {fileID: 0}
+  pageID: menestrello
+  changeByTime: 0
+  beforeTitle: 0
+  writeThisTxtUnderButton: 0
+  pageOpenDemoView: 0
+  HaveAnalyzeButton: 1
+  playerDead: 0
+  pageBeforeDeath: 0
+  txtTitle: 
+  txtSubtitle: 
+  title: 0
+  subtitleID: unUltimoBoccale
+  chapterNumber: I
+  romanPageNumber: 
+  randomString: 
+  containPlayerName: 0
+  clickAndDrop: 0
+  dropped: 0
+  containGenericDrop: 0
+  battleDropReward: {fileID: 0}
+  battleXPGain: 0
+  statsVariations: []
+  dontSave: 0
+  saveOnOpenPage: 0
+  effectAudioID: ViolinMusic
+  haveEffectAudio: 0
+  effectAudioVolume: 0
+  effectWithLoop: 0
+  effectStartDelay: 0
+  soundBackground: 1
+  localizationValues:
+    containPlayerName: 0
+    containClass: 0
+    isAbbot: 0
+    isCrone: 0
+    isHunter: 0
+    isTrafficker: 0
+    containARandomString: 0
+  buffAppliedOnCurrentPage: 0
+  pageBuffes: []
+  pageFeatures:
+    showAnHideChoice: 0
+    lockedChoice: 0
+    hideClickedButton: 0
+    containRiddle: 0
+    onlyImage: 0
+    unlockMuseumImage: 0
+    isEscapeRoom: 0
+    unlockImageID: 
+    unlockByClickedButton: 0
+  loadDifferentID: 0
+  showHideButtonRequirementsType: 0
+  showHideButtonConditions:
+    courageToUnlock: 0
+    pageToUnlockShowBtn: []
+    numberPageToUnlock: 0
+  lockedChoiceType: 0
+  lockedChoiceConditions:
+    courageToUnlock: 0
+    pageToRead: 
+    itemToUnlock: {fileID: 0}
+  choicesButtons:
+  - buttonText: ANALYZE
+    pageID: 
+    highSuperstitionPageID: 
+    minSuperstitionPageID: 
+    minAmountSuperstition: 0
+    LuckyPageID: 
+    CasualPageID: 
+    minAmountLucky: 0
+    noCourageText: 
+    cowardDifficult: 
+    fearlessDifficult: 
+    insaneDifficult: 
+    buttonToClick: []
+    playerClickedTheButton: 
+    afterRepeatThisPageID: 
+    loadStatsChangedPanel: 0
+    onlyOnce: 0
+    hideButton: 0
+    lockedButton: 0
+    attackButton: 0
+    deathButton: 0
+    btnLoadDifferentPageForSex: 0
+    btnLoadDifferentPageForClass: 0
+    clickAndDrop: 0
+    keyItemID: 
+    changeIDByButtonClicked: 0
+    analyzeButton: 1
+    buffDebuffLifePointCurrentPage: 0
+    buffDebuffExperienceCurrentPage: 0
+    audio: {fileID: 0}
+    borderColor:
+      serializedVersion: 2
+      rgba: 0
+    loadDifferentID: 0
+  - buttonText: menestrello_tasto2
+    pageID: nonTiUnisciAlCoro
+    highSuperstitionPageID: 
+    minSuperstitionPageID: 
+    minAmountSuperstition: 0
+    LuckyPageID: 
+    CasualPageID: 
+    minAmountLucky: 0
+    noCourageText: 
+    cowardDifficult: 
+    fearlessDifficult: 
+    insaneDifficult: 
+    buttonToClick: []
+    playerClickedTheButton: 
+    afterRepeatThisPageID: 
+    loadStatsChangedPanel: 1
+    onlyOnce: 0
+    hideButton: 0
+    lockedButton: 0
+    attackButton: 0
+    deathButton: 0
+    btnLoadDifferentPageForSex: 0
+    btnLoadDifferentPageForClass: 0
+    clickAndDrop: 0
+    keyItemID: 
+    changeIDByButtonClicked: 0
+    analyzeButton: 0
+    buffDebuffLifePointCurrentPage: 0
+    buffDebuffExperienceCurrentPage: 0
+    audio: {fileID: 0}
+    borderColor:
+      serializedVersion: 2
+      rgba: 4281410917
+    loadDifferentID: 0
+  - buttonText: menestrello_tasto1
+    pageID: tiUnisciAlCoro
+    highSuperstitionPageID: 
+    minSuperstitionPageID: 
+    minAmountSuperstition: 0
+    LuckyPageID: 
+    CasualPageID: 
+    minAmountLucky: 0
+    noCourageText: 
+    cowardDifficult: 
+    fearlessDifficult: 
+    insaneDifficult: 
+    buttonToClick: []
+    playerClickedTheButton: 
+    afterRepeatThisPageID: 
+    loadStatsChangedPanel: 1
+    onlyOnce: 0
+    hideButton: 0
+    lockedButton: 0
+    attackButton: 0
+    deathButton: 0
+    btnLoadDifferentPageForSex: 0
+    btnLoadDifferentPageForClass: 0
+    clickAndDrop: 0
+    keyItemID: 
+    changeIDByButtonClicked: 0
+    analyzeButton: 0
+    buffDebuffLifePointCurrentPage: 0
+    buffDebuffExperienceCurrentPage: 0
+    audio: {fileID: 0}
+    borderColor:
+      serializedVersion: 2
+      rgba: 4281410917
+    loadDifferentID: 0
+  analyzeComponentStruct:
+    lblCharacterDescription: analyzeMinstrel
+    heightContentCharacterDescription: 2300
+    lblCharacterName: minstrel
+    sprCharacterSprite: {fileID: 21300000, guid: 002cdaa81a8cc6d4d889e86dbe374cb3,
+      type: 3}
+    sprBackgroundSprite: {fileID: 21300000, guid: ab20957df680e844cb2dc90b61cc3da0,
+      type: 3}
+    DefenceIcon: {fileID: 21300000, guid: 672122181e46fd740b01fa87cc6dc364, type: 3}
+    scaleSize: {x: 160, y: 160, z: 1}
+    isEnemyFight: 1
+    lblCharacterLevel: 02
+    lblCharacterLife: 1200
+    lblCharacterDefencesNumber: 01
+    lblCharacterAbilityNumber: ???
+    lblCharacterAttackValue: ???
+    lblCharacterAttackType: Ranged
+    lblCharacterDefenceValue: 10
+    lblCharacterDefenceType: Light
+    threat: 0
+    difficult: 0
+  winOrLoseFightID:
+    winFightID: 
+    loseFightID: 
+    anotherWinFightID: 
+    anotherLoseFightID: 
+  repeatThisPage: 0
+  btnsToRemove: 0
+  introLogTxtID: 
+  easyDifficultEnemy: []
+  mediumDifficultEnemy: []
+  hardDifficultEnemy: []
+  mobID: []
+  allyID: []
+  searchDrop: []
+  readAndDrop: []
+  readAndDropQuantity: 
+  CowardItemList: []
+  FearlessItemList: []
+  InsaneItemList: []

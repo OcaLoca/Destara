@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378dbdf4673726244b57bf8bd574c651, type: 3}
+  m_Name: '[03DuraLex10a]FightLadriInFuga'
+  m_EditorClassIdentifier: 
+  decorationFadeIn: 0
+  haveEffectAudio: 0
+  fadeInFromZero: 0
+  haveCheckpoint: 0
+  chapterSection: 15
+  scriptableRiddle: {fileID: 0}
+  pageID: fightLadriInFuga
+  changeByTime: 0
+  beforeTitle: 0
+  writeThisTxtUnderButton: 0
+  playerDead: 0
+  pageBeforeDeath: 0
+  txtTitle: 
+  txtSubtitle: 
+  title: 4
+  subtitleID: 
+  chapterNumber: III
+  randomString: 
+  containPlayerName: 0
+  clickAndDrop: 0
+  dropped: 0
+  dontSave: 0
+  saveOnOpenPage: 0
+  effectAudioID: 
+  audioID: 
+  localizationValues:
+    containPlayerName: 0
+    containClass: 0
+    isAbbot: 0
+    isCrone: 0
+    isHunter: 0
+    isTrafficker: 0
+    containARandomString: 0
+  haveBuffes: 0
+  changeLife: 0
+  pageBuffes: []
+  pageFeatures:
+    showAnHideChoice: 0
+    lockedChoice: 0
+    hideClickedButton: 0
+    containRiddle: 0
+    onlyImage: 0
+    unlockMuseumImage: 0
+    isEscapeRoom: 0
+    unlockImageID: 
+    unlockByClickedButton: 0
+  loadDifferentID: 0
+  showHideButtonRequirementsType: 0
+  showHideButtonConditions:
+    courageToUnlock: 0
+    pageToUnlockShowBtn: []
+    numberPageToUnlock: 0
+  lockedChoiceType: 0
+  lockedChoiceConditions:
+    courageToUnlock: 0
+    pageToRead: 
+    itemToUnlock: {fileID: 0}
+  choicesButtons: []
+  winOrLoseFightID:
+    winFightID: vinciControLadri
+    loseFightID: muoriuccisoDaLadri
+    anotherWinFightID: 
+    anotherLoseFightID: 
+  repeatThisPage: 0
+  btnsToRemove: 0
+  easyDifficultEnemy:
+  - {fileID: 11400000, guid: d3dd97ba1d87e0a42882b9ebbf0f208b, type: 2}
+  mediumDifficultEnemy:
+  - {fileID: 11400000, guid: d3dd97ba1d87e0a42882b9ebbf0f208b, type: 2}
+  hardDifficultEnemy:
+  - {fileID: 11400000, guid: d3dd97ba1d87e0a42882b9ebbf0f208b, type: 2}
+  mobID:
+  - {fileID: 11400000, guid: 9ed8103ddd79b3f4f951f2e6b74a61cb, type: 2}
+  allyID: []
+  searchDrop: []
+  readAndDrop: []
+  readAndDropQuantity: 
+  CowardItemList: []
+  FearlessItemList: []
+  InsaneItemList: []

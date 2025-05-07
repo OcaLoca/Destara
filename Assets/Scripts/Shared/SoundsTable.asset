@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4719186229632754698d29e47e22048b, type: 3}
+  m_Name: SoundsTable
+  m_EditorClassIdentifier: 
+  MetagameSoundtrack: {fileID: 8300000, guid: 5a3dba23cc1594f47946c85f039fa6d0, type: 3}
+  GameSoundtrack: {fileID: 0}
+  AllaSaluteSoundtrack: {fileID: 8300000, guid: 0f1976ab3ca11ca4d959f3f895459289,
+    type: 3}
+  ScappaSoundtrack: {fileID: 8300000, guid: bc61a7f295d78b9459a4ee1df436139c, type: 3}
+  InVinoVeritasSoundtrack: {fileID: 8300000, guid: 8490a4beede275a438b852b92cb81720,
+    type: 3}
+  GenericFightSoundtrack: {fileID: 8300000, guid: 2cc9174327a70e74eb0c8881464413f7,
+    type: 3}
+  DeathSoundtrack: {fileID: 8300000, guid: da5d0fbd0a30d1e41bce094bd0e72124, type: 3}
+  GenericMenuButton: {fileID: 8300000, guid: dd0873db50c00fa46ba722db996e4d57, type: 3}
+  GenericBackButton: {fileID: 8300000, guid: dd7b20a5f0cd30342930d26eec269207, type: 3}
+  CowardButton: {fileID: 8300000, guid: 35921274dbf57934a8dc1dfc116814e1, type: 3}
+  FearlessButton: {fileID: 8300000, guid: 6a1aa82e3f7393c45810622f51da6f17, type: 3}
+  InsaneButton: {fileID: 8300000, guid: 66e91c45a2b532046bd905fcd4e5e8df, type: 3}
+  ConfirmDifficultButton: {fileID: 8300000, guid: 04574a02da4e0894eaa40bc9c12bc95f,
+    type: 3}
+  TutorialClickButton: {fileID: 8300000, guid: dd0873db50c00fa46ba722db996e4d57, type: 3}
+  BookmarkOpened: {fileID: 8300000, guid: 4e99dc7eecdebc64295834cc15c11ea6, type: 3}
+  VictorySound: {fileID: 8300000, guid: 29551e87282ba3f4883bf1277ede78fb, type: 3}
+  LoseSound: {fileID: 8300000, guid: 15d4190a9bb5a894698dfc06ca9f9b2a, type: 3}
+  changeGenericPage: {fileID: 8300000, guid: 688d7d5e21eef274d9555eaafdba51f2, type: 3}
+  Courage: {fileID: 0}
+  DiamondSuperstition: {fileID: 8300000, guid: 0fa8ae29f6b2a75419935607809153eb, type: 3}
+  DiamondLucky: {fileID: 8300000, guid: 0fa8ae29f6b2a75419935607809153eb, type: 3}
+  DiamondDiceRoll: {fileID: 8300000, guid: 0fa8ae29f6b2a75419935607809153eb, type: 3}
+  EquipmentButton: {fileID: 8300000, guid: 1cf3ca7e3d905c346b518b13347a6a42, type: 3}
+  ObjectsButton: {fileID: 8300000, guid: 60d0a9bc767a735469a2701a6fe6cbed, type: 3}
+  SwitchWeapon: {fileID: 8300000, guid: f9a80cc2f48d93f47953abf2bd547b92, type: 3}
+  AbilityOption: {fileID: 0}
+  BagOpen: {fileID: 8300000, guid: 767aaf49543834c41a4cee0f68986f3e, type: 3}
+  scendiEseguilo: {fileID: 8300000, guid: 6a99f699637916243abe42e86c2627e4, type: 3}
+  beviEseguilo: {fileID: 8300000, guid: d0a6f431bf8ae744bb4a7b8040c17fb6, type: 3}
+  OptionButton: {fileID: 8300000, guid: 54e9067aa77497145b65b6453e588b66, type: 3}
+  restAudio: {fileID: 8300000, guid: 5eca2c60d1e06e044ae4ea17f49deab3, type: 3}
+  torchAudio: {fileID: 8300000, guid: 75a1012b55df90d4b8b0d5a483d9aa05, type: 3}

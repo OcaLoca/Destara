@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fafe73eaa11542409cb817ddb4e726d, type: 3}
+  m_Name: Arco comune
+  m_EditorClassIdentifier: 
+  ID: arcoComune
+  itemNameLocalization: arcoComune
+  itemNameLocalized: Arco comune
+  bioDescriptionLocalized: arcoComuneBio
+  infoDescriptionLocalized: arcoComuneInfo
+  icon: {fileID: 21300000, guid: 57dd0612d3258ae49b0aa1fae43fff6a, type: 3}
+  objectQuantity: 1
+  rarity: 0
+  consumableInFight: 0
+  level: 1
+  itemType: 0
+  damage: 37.375
+  weaponConstDamage: 30
+  staminaCost: 130
+  scaleType: 2
+  arcaneDamageBuffDebuff: 0
+  attackType: 1
+  elementalBuff: {fileID: 0}
+  criticalDamageChance: 30
+  hitChance: 65
+  weaponAttackSound: {fileID: 8300000, guid: f55a1d27c775e814eafa813cb142b5ed, type: 3}
+  weaponHitSound: {fileID: 0}
+  weaponRenderType: 0
+  VFXID: VFXArrow
+  criticalVFXID: VFXArrowCritical

@@ -1,0 +1,57 @@
+# =============== #
+# Unity generated #
+# =============== #
+
+/.vs/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/Assets/AssetStoreTools*
+UnityGenerated/
+/CodeCoverage/
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+*.tmp
+
+# ===================================== #
+# Unity3D generated meta files #
+# ===================================== #
+*.pidb.meta
+
+
+# ======================================= #
+# Unity3D Generated File On Crash Reports #
+# ======================================= #
+sysinfo.txt
+
+# ======================================= #
+# Unity3D Libraries and packages		  #
+# ======================================= #
+/Assets/UnityTestTools*
+
+# ======================================= #
+# Project Specific
+# ======================================= #
+/Assets/Tests*
+/startupConfiguration.json
+/Nuova cartella
+/,
+/Packages/packages-lock.json
+/Assets/Resources/Sprites/Character/Anim.meta
+/Assets/Resources/Sprites/Character

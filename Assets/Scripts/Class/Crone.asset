@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16499ff09be195445b25b560e469cb2b, type: 3}
+  m_Name: Crone
+  m_EditorClassIdentifier: 
+  maxTorchCount: 6
+  maxPaperCount: 6
+  courage: 80
+  luck: 40
+  superstition: 91
+  classDescriptionKey: 
+  constitution: 80
+  dexterity: 70
+  strength: 75
+  inteligence: 90
+  abilities:
+  - {fileID: 11400000, guid: 9e62493a76a06094c929ca55693e5d54, type: 2}
+  - {fileID: 11400000, guid: 4cb8e3a3f9fef7f49a5b2adc13616068, type: 2}
+  - {fileID: 11400000, guid: 2ba713e14f56b944eb3fa79cfb58b69b, type: 2}
+  - {fileID: 11400000, guid: b679600658e2f1642a814abb2a148254, type: 2}
+  finalAbility: {fileID: 11400000, guid: 2271a6121449a7a48a0af068f01a537c, type: 2}
+  highAbilities:
+  - {fileID: 11400000, guid: 9e62493a76a06094c929ca55693e5d54, type: 2}
+  - {fileID: 11400000, guid: 4cb8e3a3f9fef7f49a5b2adc13616068, type: 2}
+  - {fileID: 11400000, guid: 2ba713e14f56b944eb3fa79cfb58b69b, type: 2}
+  - {fileID: 11400000, guid: b679600658e2f1642a814abb2a148254, type: 2}
+  highFinalAbility: {fileID: 11400000, guid: 2271a6121449a7a48a0af068f01a537c, type: 2}
+  classAnimation: {fileID: 9100000, guid: 91d2b7d3b6e716f45bc946cc2f56c7eb, type: 2}
+  equippedClassDefence: {fileID: 11400000, guid: 4f1b9e0ac52b56d4b93c1263eda37965,
+    type: 2}
+  equippedLightDefence: {fileID: 11400000, guid: 39a603a970572ce439ce46117eefd01c,
+    type: 2}
+  equippedBalancedDefence: {fileID: 11400000, guid: 4f1b9e0ac52b56d4b93c1263eda37965,
+    type: 2}
+  equippedHeavyDefence: {fileID: 11400000, guid: 7b1c33b2338931f488d5dee8486d2491,
+    type: 2}
+  equippedGemStone: {fileID: 11400000, guid: ddccce9074a649e42a492ca348dd75ef, type: 2}
+  equippedTalisman: {fileID: 11400000, guid: c8489baaa6887f94a9c4d0af8ecb08b0, type: 2}
+  equippedRelic: {fileID: 11400000, guid: 8e32ed8448bb2bd4dab4bc6b65a7a57e, type: 2}
+  lightWeapon: {fileID: 11400000, guid: c2c412c81025bb4469f640d5b91f6c07, type: 2}
+  heavyWeapon: {fileID: 11400000, guid: aa1b0d974b429784ea5f2cb2db2de3ce, type: 2}
+  rangeWeapon: {fileID: 11400000, guid: f6fa41de9e4fa2c47914e6a84900e5de, type: 2}
+  specialWeapon: {fileID: 11400000, guid: dbf008499abb2ca4783e4a964d4b2409, type: 2}
+  equippedWeapon: {fileID: 0}
+  itemInventory:
+  - {fileID: 11400000, guid: 32ed0bbdba1db27499dc63f4e76e4c41, type: 2}
+  - {fileID: 11400000, guid: ce7bdfb89b94f9545af55419aa698470, type: 2}
+  - {fileID: 11400000, guid: ce7bdfb89b94f9545af55419aa698470, type: 2}
+  - {fileID: 11400000, guid: 5fd6b103b5768844a9735923bf973d7d, type: 2}
+  - {fileID: 11400000, guid: 5fd6b103b5768844a9735923bf973d7d, type: 2}
+  - {fileID: 11400000, guid: 5fd6b103b5768844a9735923bf973d7d, type: 2}
+  - {fileID: 11400000, guid: 9a656a4494421f549afea0b0facf8a21, type: 2}
+  - {fileID: 11400000, guid: f71fe436c5808924bbbe6e4fb70ca7dc, type: 2}
+  - {fileID: 11400000, guid: 4acaa4773dbd87447bb48fa1d030bfdf, type: 2}

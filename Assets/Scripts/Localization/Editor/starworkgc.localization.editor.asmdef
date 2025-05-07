@@ -1,0 +1,17 @@
+{
+    "name": "starworkgc.localization.editor",
+    "references": [
+        "GUID:d65b08e162f29d4418b83b0cfa3b67a0"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

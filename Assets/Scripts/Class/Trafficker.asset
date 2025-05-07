@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dab851d826a4bbb4b839118c1ab8bd9f, type: 3}
+  m_Name: Trafficker
+  m_EditorClassIdentifier: 
+  maxTorchCount: 8
+  maxPaperCount: 7
+  courage: 82
+  luck: 58
+  superstition: 14
+  classDescriptionKey: 
+  constitution: 60
+  dexterity: 85
+  strength: 75
+  inteligence: 70
+  abilities: []
+  finalAbility: {fileID: 0}
+  highAbilities: []
+  highFinalAbility: {fileID: 0}
+  classAnimation: {fileID: 0}
+  equippedHeadEquipment: {fileID: 0}
+  equippedTorsoEquipment: {fileID: 0}
+  equippedShieldEquipment: {fileID: 0}
+  equippedAccessory1: {fileID: 0}
+  equippedAccessory2: {fileID: 0}
+  lightWeapon: {fileID: 11400000, guid: 87d9b0990afa117439c0e268b12b3df6, type: 2}
+  heavyWeapon: {fileID: 0}
+  rangeWeapon: {fileID: 11400000, guid: 794469f1884932a4885d2ab42142d36a, type: 2}
+  specialWeapon: {fileID: 0}
+  equippedWeapon: {fileID: 0}
+  itemInventory:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

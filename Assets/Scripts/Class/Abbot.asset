@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 363a2cd58e8d59942b867c25fa9e8e28, type: 3}
+  m_Name: Abbot
+  m_EditorClassIdentifier: 
+  maxTorchCount: 6
+  maxPaperCount: 6
+  courage: 70
+  luck: 55
+  superstition: 45
+  classDescriptionKey: 
+  constitution: 80
+  dexterity: 65
+  strength: 70
+  inteligence: 70
+  abilities:
+  - {fileID: 11400000, guid: ad26e984fef6d464db26a44b62e21044, type: 2}
+  - {fileID: 11400000, guid: 24928af5b575ab443b98755daa3fae6a, type: 2}
+  - {fileID: 11400000, guid: 7a5b5f4358c823647820c30f17daee99, type: 2}
+  - {fileID: 11400000, guid: e1340147df4c3d345ace0240cfaabc38, type: 2}
+  finalAbility: {fileID: 11400000, guid: 765d6410cdcaf2246b869b4a1da5114c, type: 2}
+  highAbilities:
+  - {fileID: 11400000, guid: ad26e984fef6d464db26a44b62e21044, type: 2}
+  - {fileID: 11400000, guid: 24928af5b575ab443b98755daa3fae6a, type: 2}
+  - {fileID: 11400000, guid: 88f1931d96fc13b499048897eda7cac3, type: 2}
+  - {fileID: 11400000, guid: e1b009fb6ac9fe344815592cee63680f, type: 2}
+  highFinalAbility: {fileID: 11400000, guid: 1081310b50e569043b47921f4f6633fb, type: 2}
+  classAnimation: {fileID: 0}
+  equippedHeadEquipment: {fileID: 11400000, guid: e13fe6e334351c44b93a143bb63fdb35,
+    type: 2}
+  equippedTorsoEquipment: {fileID: 11400000, guid: 6f2150f09af959e4cadddeb1cd27c97d,
+    type: 2}
+  equippedShieldEquipment: {fileID: 11400000, guid: 6751dd67b0664d94193263125260b20e,
+    type: 2}
+  equippedAccessory1: {fileID: 11400000, guid: aa50c4823b84f7f42b1ad234070b1b03, type: 2}
+  equippedAccessory2: {fileID: 11400000, guid: 353a9a9dfae0e464698791a6a89cae00, type: 2}
+  lightWeapon: {fileID: 0}
+  heavyWeapon: {fileID: 11400000, guid: 74d285af9af0127499409cbd7398bcc3, type: 2}
+  rangeWeapon: {fileID: 11400000, guid: 3508544d441d50e4d9a85124797b8734, type: 2}
+  specialWeapon: {fileID: 11400000, guid: 3508544d441d50e4d9a85124797b8734, type: 2}
+  equippedWeapon: {fileID: 0}
+  itemInventory:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

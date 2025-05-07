@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 5095c24cba7f3224fb9d5453aced7c06
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - selectedClass: {instanceID: 0}
+  - equippedWeapon: {instanceID: 0}
+  - equippedHeadEquipment: {fileID: 11400000, guid: 3a316251086a55e49ab1952078a1e43c,
+      type: 2}
+  - equippedTorsoEquipment: {instanceID: 0}
+  - equippedLegsEquipment: {instanceID: 0}
+  - equippedShoesEquipment: {instanceID: 0}
+  - bag: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

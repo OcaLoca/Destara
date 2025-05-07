@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfcca11af630817488630fa88cc984e5, type: 3}
+  m_Name: PietraPreziosa - Ferro
+  m_EditorClassIdentifier: 
+  ID: Ferro
+  itemNameLocalization: Ferro
+  itemNameLocalized: Quarzo
+  bioDescriptionLocalized: Queste particolari pietre di quarzo sono molto ricercate
+    dai mercanti del regno
+  infoDescriptionLocalized: Garantisce +2 danni a tutte le armi di tipo Pesante
+  icon: {fileID: 21300000, guid: 9968147b8d81fb047b22dce9050e1859, type: 3}
+  objectQuantity: 1
+  rarity: 0
+  consumableInFight: 0
+  level: 1
+  itemType: 7
+  defence: 25
+  StaminaCost: 0
+  weight: 0
+  arcaneDefenceBuffDebuff: 0
+  equipmentType: {fileID: 0}
+  elementalBuff: {fileID: 11400000, guid: fde0f20f18b19fa4c8ab671033ca9ea4, type: 2}
+  equipPlaceType: 4
+  defenseType: 0
+  hitSound: {fileID: 0}

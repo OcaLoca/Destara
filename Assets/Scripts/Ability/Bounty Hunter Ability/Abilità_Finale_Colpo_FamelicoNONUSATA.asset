@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc3e588a4844844478953bbcef685122, type: 3}
+  m_Name: "Abilit\xE0_Finale_Colpo_FamelicoNONUSATA"
+  m_EditorClassIdentifier: 
+  localizedID: colpoFamelico
+  description: spiega agli altri cosa fa
+  abilityName: Colpo famelico
+  abilityConsoleLog: CGE^^Dvhdv
+  moveType: 
+  abilityElement: 0
+  elementalLevel: []
+  finalAbility: 0
+  onlyEnemyAbility: 0
+  cost: 6
+  defaultCost: 6
+  hitChance: 0
+  scaledAmount: 0
+  criticalChance: 0
+  havePowerUp: 0
+  abilityDamage: []
+  elementalHitChance: 
+  buffPercentage: 
+  upgradeWithPlayerLevel: 0
+  attackType: 0
+  targetCount: 0
+  animationTriggerID: 0
+  abilitySounds: {fileID: 0}
+  abilityBuff: 0

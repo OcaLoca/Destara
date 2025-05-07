@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 377dec2b29d9451faecc1c9f47f980a4
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26255
+  packageName: Bad Word Filter PRO
+  packageVersion: 2024.1.1
+  assetPath: Assets/Plugins/crosstales/BadWordFilter/Resources/Filters/rtl/ar.txt
+  uploadId: 650739

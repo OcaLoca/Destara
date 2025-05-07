@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dad10ffd8d15274f82d5ef6a13f133a, type: 3}
+  m_Name: "Abilit\xE0_Generica_Raffica"
+  m_EditorClassIdentifier: 
+  localizedID: Raffica
+  abilityDescription: spiega agli altri cosa fa
+  abilityName: Raffica
+  abilityConsoleLog: Viandante usa Fendenteeeeeee
+  APcost: 0
+  moveType: 00000000
+  abilityLevel: 0
+  rarity: 0
+  applyStateCondition: 0
+  elementalLevel: []
+  onlyEnemyAbility: 1
+  defaultCost: 0
+  defaultDamage: 300
+  havePowerUp: 0
+  powerUpDamage: []
+  useWeapon: 0
+  attackType: 2
+  hitChance: 80
+  dontGiveDamage: 0
+  scaledAmount: 7
+  criticalChance: 15
+  elementalHitChance: 16000000
+  buffPercentage: 05000000
+  defaultBuffPercentage: 0
+  upgradeWithPlayerLevel: 0
+  targetCount: 1
+  animationTriggerID: 0
+  VFXID: Raffica
+  slowMotionDuration: 1.2
+  slowMotionTimeScale: 0.6
+  VFXloop: 2
+  abilityShakeBoard: 1
+  abilityShakeBoardAmount: 100
+  abilitySounds: {fileID: 0}
+  abilityBuff: 0

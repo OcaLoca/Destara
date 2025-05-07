@@ -1,0 +1,36 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
+
+namespace Game
+{
+    public class PagesMaleDatabase : MonoBehaviour
+    {
+        public static PagesMaleDatabase Singleton;
+
+        public List<ScriptablePage> chaptersDatabase;
+
+        void Awake()
+        {
+            Singleton = this;
+            SortDatabase();
+        }
+
+        public ScriptablePage GetPageByID(string ID)
+        {
+            if (chaptersDatabase == null) { return null; }
+                foreach (ScriptablePage chapter in chaptersDatabase)
+                {
+                    if (chapter.pageID == ID) { return chapter; }
+                }
+            return null;
+        }
+
+        void SortDatabase()
+        {
+            chaptersDatabase = chaptersDatabase.OrderBy(x => x.name).ToList();
+        }
+    }
+
+}

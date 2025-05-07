@@ -1,0 +1,20 @@
+/* ----------------------------------------------
+ * Copyright © Mobybit
+ * ----------------------------------------------
+ */
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using static Game.BattleController;
+
+namespace Game
+{
+    [CreateAssetMenu(fileName = "Abilità: ", menuName = "ScriptableAbility/ClassName/AbilityName", order = mettere x+1 a quello precedente)]
+    public class #SCRIPTNAME# : ScriptableAbility
+    {
+        
+
+    }
+
+}

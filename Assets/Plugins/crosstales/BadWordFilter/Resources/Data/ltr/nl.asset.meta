@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 72cc340ae8eb69b49a1e41dd165a75bb
+timeCreated: 1537711323
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26255
+  packageName: Bad Word Filter PRO
+  packageVersion: 2024.1.1
+  assetPath: Assets/Plugins/crosstales/BadWordFilter/Resources/Data/ltr/nl.asset
+  uploadId: 650739
