@@ -63,18 +63,18 @@ namespace Game
             IconPanelsScrollRect.verticalNormalizedPosition = 1f;
         }
 
-        const string AEQUILIBER_WEBSITE = "https://www.mobybit.it/portfolio/equiliber/";
+        const string Destara_WEBSITE = "https://www.mobybit.it/portfolio/equiliber/";
 
         void OnClickWebsite()
         {
-            Application.OpenURL(AEQUILIBER_WEBSITE);
+            Application.OpenURL(Destara_WEBSITE);
         }
 
-        const string AEQUILIBER_CONTACT_US = "https://www.mobybit.it/contatti/";
+        const string Destara_CONTACT_US = "https://www.mobybit.it/contatti/";
 
         void OnClickContactUs()
         {
-            Application.OpenURL(AEQUILIBER_CONTACT_US);
+            Application.OpenURL(Destara_CONTACT_US);
         }
         void OnClickBack()
         {
