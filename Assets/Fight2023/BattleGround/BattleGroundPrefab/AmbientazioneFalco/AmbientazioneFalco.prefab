@@ -166,6 +166,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5741912159858935754}
     m_Modifications:
+    - target: {fileID: 214051773930937565, guid: fce3b45d33aa67c4da60bbbb807509b5,
+        type: 3}
+      propertyPath: m_NormalMapQuality
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4549969314971240617, guid: fce3b45d33aa67c4da60bbbb807509b5,
         type: 3}
       propertyPath: m_Enabled
@@ -175,6 +180,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: EffectManagerFalco
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266592489462999832, guid: fce3b45d33aa67c4da60bbbb807509b5,
+        type: 3}
+      propertyPath: m_NormalMapQuality
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7654701628814845934, guid: fce3b45d33aa67c4da60bbbb807509b5,
         type: 3}

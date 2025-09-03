@@ -56,6 +56,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -77,6 +79,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -2
@@ -220,6 +223,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -241,6 +246,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -3
@@ -286,6 +292,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8839251472639958092}
     m_Modifications:
+    - target: {fileID: 1216935205511776384, guid: 05225e8fa72766e41ad11584d791291f,
+        type: 3}
+      propertyPath: m_NormalMapQuality
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4545836106474385773, guid: 05225e8fa72766e41ad11584d791291f,
         type: 3}
       propertyPath: m_Pivot.x
@@ -390,6 +401,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: EffectManagerMacellaio
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237033842500176351, guid: 05225e8fa72766e41ad11584d791291f,
+        type: 3}
+      propertyPath: m_NormalMapQuality
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
