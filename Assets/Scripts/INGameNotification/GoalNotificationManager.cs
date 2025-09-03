@@ -20,6 +20,7 @@ namespace Game
 
         private void Awake()
         {
+            //
             Singleton = this;
         }
 
