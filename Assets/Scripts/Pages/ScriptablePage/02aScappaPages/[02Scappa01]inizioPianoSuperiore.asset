@@ -59,7 +59,7 @@ MonoBehaviour:
   pageBuffes: []
   pageFeatures:
     showAnHideChoice: 0
-    lockedChoice: 1
+    lockedChoice: 0
     hideClickedButton: 0
     containRiddle: 0
     onlyImage: 0
@@ -79,38 +79,6 @@ MonoBehaviour:
     pageToRead: 
     itemToUnlock: {fileID: 0}
   choicesButtons:
-  - buttonText: inizioPianoSuperioretst
-    pageID: entrataEscapeRoomScappa
-    highSuperstitionPageID: 
-    minSuperstitionPageID: 
-    minAmountSuperstition: 0
-    LuckyPageID: 
-    CasualPageID: 
-    minAmountLucky: 0
-    noCourageText: 
-    cowardDifficult: 
-    fearlessDifficult: 
-    insaneDifficult: 
-    buttonToClick: []
-    playerClickedTheButton: 
-    afterRepeatThisPageID: 
-    loadStatsChangedPanel: 0
-    onlyOnce: 0
-    hideButton: 0
-    lockedButton: 1
-    attackButton: 0
-    deathButton: 0
-    clickAndDrop: 0
-    keyItemID: 
-    changeIDByButtonClicked: 0
-    analyzeButton: 0
-    buffDebuffLifePointCurrentPage: 0
-    buffDebuffExperienceCurrentPage: 0
-    audio: {fileID: 0}
-    borderColor:
-      serializedVersion: 2
-      rgba: 16777215
-    loadDifferentID: 0
   - buttonText: inizioPianoSuperioretst1
     pageID: esploraPianoSuperiore
     highSuperstitionPageID: 
@@ -132,6 +100,8 @@ MonoBehaviour:
     lockedButton: 0
     attackButton: 0
     deathButton: 0
+    btnLoadDifferentPageForSex: 0
+    btnLoadDifferentPageForClass: 0
     clickAndDrop: 0
     keyItemID: 
     changeIDByButtonClicked: 0
@@ -152,12 +122,12 @@ MonoBehaviour:
     DefenceIcon: {fileID: 0}
     scaleSize: {x: 0, y: 0, z: 0}
     isEnemyFight: 0
-    lblCharacterLevel: 
+    lblCharacterLevel: 0
     lblCharacterLife: 
-    lblCharacterConstitution: 
-    lblCharacterStrenght: 
-    lblCharacterDexterity: 
-    lblCharacterIntelligence: 
+    lblCharacterDefencesNumber: 
+    lblCharacterAbilityNumber: 
+    lblCharacterAttackValue: 
+    lblCharacterAttackType: 
     lblCharacterDefenceValue: 
     lblCharacterDefenceType: 
     threat: 0

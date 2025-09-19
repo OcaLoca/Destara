@@ -113,40 +113,6 @@ MonoBehaviour:
       serializedVersion: 2
       rgba: 16777215
     loadDifferentID: 0
-  - buttonText: vecchioCieco_tasto3
-    pageID: primaDomanda
-    highSuperstitionPageID: 
-    minSuperstitionPageID: 
-    minAmountSuperstition: 0
-    LuckyPageID: 
-    CasualPageID: 
-    minAmountLucky: 0
-    noCourageText: 
-    cowardDifficult: 
-    fearlessDifficult: 
-    insaneDifficult: 
-    buttonToClick: []
-    playerClickedTheButton: 
-    afterRepeatThisPageID: 
-    loadStatsChangedPanel: 0
-    onlyOnce: 0
-    hideButton: 0
-    lockedButton: 0
-    attackButton: 0
-    deathButton: 0
-    btnLoadDifferentPageForSex: 0
-    btnLoadDifferentPageForClass: 0
-    clickAndDrop: 0
-    keyItemID: 
-    changeIDByButtonClicked: 0
-    analyzeButton: 0
-    buffDebuffLifePointCurrentPage: 0
-    buffDebuffExperienceCurrentPage: 0
-    audio: {fileID: 0}
-    borderColor:
-      serializedVersion: 2
-      rgba: 16777215
-    loadDifferentID: 0
   analyzeComponentStruct:
     lblCharacterDescription: 
     heightContentCharacterDescription: 0

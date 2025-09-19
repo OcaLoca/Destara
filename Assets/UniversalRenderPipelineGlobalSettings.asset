@@ -62,22 +62,12 @@ MonoBehaviour:
       - rid: 4139984567539859461
       - rid: 4139984567539859462
       - rid: 4139984567539859463
-      - rid: 4139984589989609472
-      - rid: 4139984589989609473
+      - rid: -2
+      - rid: -2
+      - rid: 7372949022159667200
+      - rid: 7372949022159667201
     m_RuntimeSettings:
-      m_List:
-      - rid: 1450302443796561920
-      - rid: 1450302443796561923
-      - rid: 1450302443796561924
-      - rid: 1450302443796561925
-      - rid: 1450302443796561928
-      - rid: 1450302443796561929
-      - rid: 1450302443796561930
-      - rid: 1450302443796561932
-      - rid: 1450302443796561937
-      - rid: 1450302443796561940
-      - rid: 4139984567539859462
-      - rid: 4139984567539859463
+      m_List: []
   m_AssetVersion: 8
   m_ObsoleteDefaultVolumeProfile: {fileID: 0}
   m_RenderingLayerNames:
@@ -280,7 +270,7 @@ MonoBehaviour:
       data:
         m_Version: 1
         m_UseBicubicLightmapSampling: 0
-    - rid: 4139984589989609472
+    - rid: 7372949022159667200
       type: {class: PostProcessData/TextureResources, ns: UnityEngine.Rendering.Universal,
         asm: Unity.RenderPipelines.Universal.Runtime}
       data:
@@ -331,7 +321,7 @@ MonoBehaviour:
         smaaAreaTex: {fileID: 2800000, guid: d1f1048909d55cd4fa1126ab998f617e, type: 3}
         smaaSearchTex: {fileID: 2800000, guid: 51eee22c2a633ef4aada830eed57c3fd, type: 3}
         m_TexturesResourcesVersion: 0
-    - rid: 4139984589989609473
+    - rid: 7372949022159667201
       type: {class: PostProcessData/ShaderResources, ns: UnityEngine.Rendering.Universal,
         asm: Unity.RenderPipelines.Universal.Runtime}
       data:

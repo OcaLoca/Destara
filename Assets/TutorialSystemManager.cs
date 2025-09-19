@@ -111,7 +111,7 @@ public class TutorialSystemManager : MonoBehaviour
     public void RefreshDataForTheTutorial()
     {
         TutorialPanelsDatabase[0].SetActive(true);
-        StatsView.notShowed = true; //Serve per settare che il tutorial nelle stats non è ancora stato visto
+        StatsView.notShowed = true; //Serve per settare che il tutorial nelle stats non ï¿½ ancora stato visto
         BattleController.AlreadyShowTutorialOneTime = false;
         SecondTutorialPartNotShowed = true;
         FirstTutorialPartNotShowed = true;
@@ -206,7 +206,7 @@ public class TutorialSystemManager : MonoBehaviour
         {
             panelIndexNumber = 0;
             gameObject.SetActive(false);
-            AttentionPanel.Singleton.ActiveAttentionPanel("tutorialPreferencePanel");
+            //AttentionPanel.Singleton.ActiveAttentionPanel("tutorialPreferencePanel");
             return;
         }
         TutorialPanelsDatabase[panelIndexNumber].SetActive(true);
