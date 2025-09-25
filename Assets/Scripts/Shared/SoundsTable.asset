@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4719186229632754698d29e47e22048b, type: 3}
   m_Name: SoundsTable
   m_EditorClassIdentifier: 
-  MetagameSoundtrack: {fileID: 8300000, guid: 5a3dba23cc1594f47946c85f039fa6d0, type: 3}
+  MetagameSoundtrack: {fileID: 8300000, guid: 5c94b73d130a58d4a8391b15dfac4a63, type: 3}
   GameSoundtrack: {fileID: 0}
-  AllaSaluteSoundtrack: {fileID: 8300000, guid: 0f1976ab3ca11ca4d959f3f895459289,
+  AllaSaluteSoundtrack: {fileID: 8300000, guid: 97312c2fda9e9c24cb8dc4d57e87ec99,
     type: 3}
-  ScappaSoundtrack: {fileID: 8300000, guid: bc61a7f295d78b9459a4ee1df436139c, type: 3}
-  InVinoVeritasSoundtrack: {fileID: 8300000, guid: 8490a4beede275a438b852b92cb81720,
+  ScappaSoundtrack: {fileID: 8300000, guid: 97312c2fda9e9c24cb8dc4d57e87ec99, type: 3}
+  InVinoVeritasSoundtrack: {fileID: 8300000, guid: 97312c2fda9e9c24cb8dc4d57e87ec99,
     type: 3}
-  GenericFightSoundtrack: {fileID: 8300000, guid: 2cc9174327a70e74eb0c8881464413f7,
+  GenericFightSoundtrack: {fileID: 8300000, guid: 43f435dab758c8c40b1d66a5821d2b52,
     type: 3}
   DeathSoundtrack: {fileID: 8300000, guid: da5d0fbd0a30d1e41bce094bd0e72124, type: 3}
-  GenericMenuButton: {fileID: 8300000, guid: dd0873db50c00fa46ba722db996e4d57, type: 3}
-  GenericBackButton: {fileID: 8300000, guid: dd7b20a5f0cd30342930d26eec269207, type: 3}
+  GenericMenuButton: {fileID: 8300000, guid: e31ef1907ba0a8d4cb5fbc45bfe51878, type: 3}
+  GenericBackButton: {fileID: 8300000, guid: 42a4e96c5a94ab24dbe9ec46c1c1046f, type: 3}
   CowardButton: {fileID: 8300000, guid: 35921274dbf57934a8dc1dfc116814e1, type: 3}
   FearlessButton: {fileID: 8300000, guid: 6a1aa82e3f7393c45810622f51da6f17, type: 3}
   InsaneButton: {fileID: 8300000, guid: 66e91c45a2b532046bd905fcd4e5e8df, type: 3}
