@@ -15,7 +15,7 @@ MonoBehaviour:
   localizedID: blackTouch
   abilityDescription: abilityMaledizioneDsc
   abilityName: Tocco nero
-  abilityConsoleLog: "Tocco nero ha inflitto 600 danni! Lupo del re \xE8 avvelenato!"
+  abilityConsoleLog: "Tocco nero ha inflitto 600 danni!\nSpettro \xE8 avvelenato!"
   APcost: 50
   moveType: 00000000
   abilityLevel: 5
@@ -46,5 +46,5 @@ MonoBehaviour:
   VFXloop: 0
   abilityShakeBoard: 0
   abilityShakeBoardAmount: 0
-  abilitySounds: {fileID: 8300000, guid: 871d6761b43bf9745b0299e870362eec, type: 3}
+  abilitySounds: {fileID: 8300000, guid: 08c48df40f077cc45b82d3b067ac6469, type: 3}
   abilityBuff: 0

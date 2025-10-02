@@ -15,7 +15,9 @@ MonoBehaviour:
   localizedID: luponero
   abilityDescription: abilityLupoNeroDsc
   abilityName: Luponero
-  abilityConsoleLog: Hai colpito 4 volte infliggendo 280 danni
+  abilityConsoleLog: 'Hai colpito 4 volte!
+
+    Luponero ha inflitto 278 danni!'
   APcost: 15
   moveType: 00000000
   abilityLevel: 1
@@ -45,6 +47,6 @@ MonoBehaviour:
   VFXloop: 3
   abilityShakeBoard: 0
   abilityShakeBoardAmount: 0
-  abilitySounds: {fileID: 8300000, guid: 4a5b6ff516248a24caf1e9d42b455d6f, type: 3}
+  abilitySounds: {fileID: 8300000, guid: 65c64908cbf8bca4e8ff7a81ad948018, type: 3}
   abilityBuff: 0
   damageWolf: 20

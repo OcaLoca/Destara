@@ -13,26 +13,37 @@ MonoBehaviour:
   m_Name: "Abilit\xE0_Finale_Colpo_FamelicoNONUSATA"
   m_EditorClassIdentifier: 
   localizedID: colpoFamelico
-  description: spiega agli altri cosa fa
+  abilityDescription: 
   abilityName: Colpo famelico
   abilityConsoleLog: CGE^^Dvhdv
+  APcost: 0
   moveType: 
-  abilityElement: 0
+  abilityLevel: 0
+  rarity: 0
+  applyStateCondition: 0
   elementalLevel: []
-  finalAbility: 0
   onlyEnemyAbility: 0
-  cost: 6
   defaultCost: 6
+  defaultDamage: 0
+  havePowerUp: 0
+  powerUpDamage: []
+  useWeapon: 0
+  attackType: 0
   hitChance: 0
+  dontGiveDamage: 0
   scaledAmount: 0
   criticalChance: 0
-  havePowerUp: 0
-  abilityDamage: []
   elementalHitChance: 
   buffPercentage: 
+  defaultBuffPercentage: 0
   upgradeWithPlayerLevel: 0
-  attackType: 0
   targetCount: 0
   animationTriggerID: 0
+  VFXID: 
+  slowMotionDuration: 0
+  slowMotionTimeScale: 0
+  VFXloop: 0
+  abilityShakeBoard: 0
+  abilityShakeBoardAmount: 0
   abilitySounds: {fileID: 0}
   abilityBuff: 0

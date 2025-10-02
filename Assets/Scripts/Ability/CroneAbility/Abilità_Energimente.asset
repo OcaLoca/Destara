@@ -45,5 +45,5 @@ MonoBehaviour:
   VFXloop: 0
   abilityShakeBoard: 0
   abilityShakeBoardAmount: 0
-  abilitySounds: {fileID: 8300000, guid: b413326cc3c7fc444a78c4b5a56ab594, type: 3}
+  abilitySounds: {fileID: 8300000, guid: 7accdca79faee144b97ad4427b28d280, type: 3}
   abilityBuff: 0

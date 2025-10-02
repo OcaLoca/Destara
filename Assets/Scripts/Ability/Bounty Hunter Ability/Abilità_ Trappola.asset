@@ -15,7 +15,7 @@ MonoBehaviour:
   localizedID: trappola
   abilityDescription: abilityTrappolaDsc
   abilityName: Trappola
-  abilityConsoleLog: Trappola ha abbassato drasticamente la destrezza del Viandante!
+  abilityConsoleLog: "Il valore di Destrezza di Viandante \xE8 diminuito!"
   APcost: 5
   moveType: 00000000
   abilityLevel: 1
@@ -45,5 +45,5 @@ MonoBehaviour:
   VFXloop: 0
   abilityShakeBoard: 0
   abilityShakeBoardAmount: 0
-  abilitySounds: {fileID: 8300000, guid: 5609638d127e7c747b70440fe49a1d6e, type: 3}
+  abilitySounds: {fileID: 8300000, guid: d0c6caaabf767e84ea72214ef3ddc205, type: 3}
   abilityBuff: 0

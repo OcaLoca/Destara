@@ -15,7 +15,7 @@ MonoBehaviour:
   localizedID: attesa
   abilityDescription: abilityAttesaDsc
   abilityName: Attesa
-  abilityConsoleLog: Lobot ha aumentato strenght e dexterity del 15%
+  abilityConsoleLog: "Il valore di Forza e di Destrezza di Lobot \xE8 aumentato!"
   APcost: 5
   moveType: 02000000
   abilityLevel: 1
@@ -45,5 +45,5 @@ MonoBehaviour:
   VFXloop: 0
   abilityShakeBoard: 0
   abilityShakeBoardAmount: 0
-  abilitySounds: {fileID: 8300000, guid: d72e2da654f4aba4784474d1c954b6e7, type: 3}
+  abilitySounds: {fileID: 8300000, guid: e4b029f25039f034394cc3c53f7c7ca5, type: 3}
   abilityBuff: 0

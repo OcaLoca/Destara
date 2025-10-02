@@ -15,7 +15,7 @@ MonoBehaviour:
   localizedID: trucida
   abilityDescription: abilityTrucidaDsc
   abilityName: Trucida
-  abilityConsoleLog: "Trucida ha inflitto 350 danni! Macellaio \xE8 confuso!"
+  abilityConsoleLog: "Trucida ha inflitto 700 danni!\nViandante \xE8 confuso!"
   APcost: 40
   moveType: 00000000
   abilityLevel: 1
@@ -45,5 +45,5 @@ MonoBehaviour:
   VFXloop: 0
   abilityShakeBoard: 0
   abilityShakeBoardAmount: 0
-  abilitySounds: {fileID: 8300000, guid: d63b4522586d9594cb7c3d5027d0f63e, type: 3}
+  abilitySounds: {fileID: 8300000, guid: 5c46b6b2a83a4f84ea2b6dc585e331f3, type: 3}
   abilityBuff: 0
