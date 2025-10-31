@@ -15,7 +15,7 @@ MonoBehaviour:
   localizedID: arteMagia
   abilityDescription: abilityArteMagicaDsc
   abilityName: Artemagia
-  abilityConsoleLog: "Artemagia ha inflitto 100 danni! Lupo del re \xE8 paralizzato!"
+  abilityConsoleLog: "Artemagia ha inflitto 100 danni!\nSpettro \xE8 paralizzato!"
   APcost: 20
   moveType: 00000000
   abilityLevel: 0
@@ -46,5 +46,5 @@ MonoBehaviour:
   VFXloop: 0
   abilityShakeBoard: 0
   abilityShakeBoardAmount: 0
-  abilitySounds: {fileID: 8300000, guid: ebc605019be95a241811fc7b7a5845b6, type: 3}
+  abilitySounds: {fileID: 8300000, guid: 097fce2727fbc2042b82050df6988897, type: 3}
   abilityBuff: 0
