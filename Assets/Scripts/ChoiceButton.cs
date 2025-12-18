@@ -1,4 +1,4 @@
-﻿using SmartMVC;
+using SmartMVC;
 using StarworkGC.Localization;
 using StarworkGC.Utils;
 using System;
@@ -36,6 +36,9 @@ namespace Game
         [Header("Button Behavior")]
         public bool buttonBlockIsActived, buttonIsAlreadyFadeIn;
         private bool unlockObject, unlockChoice, choiceChangeStats;
+
+        [Header("Keyboard Selection")]
+        public int keyboardIndex = -1; // 1,2,3,4...
 
         [SerializeField] private TMP_Text myText;
 
@@ -114,6 +117,42 @@ namespace Game
             btnShowNoItemMessage.enabled = false;
 
             if (onPressingButton != null) { return; }
+        }
+
+
+        public void ClickFromKeyboard()
+        {
+            Debug.Log("CLICKED FROM KEYWORD");
+            ContinueView.StartGameFromContinue = false;
+            if (buttonBlockIsActived)
+            {
+                SetAlreadyPressedButtonState(false);
+                return;
+            }
+
+            if (alreadyPressed && (nextPageID != ANALYZEBUTTONID)) { return; }
+
+            if (!button.interactable)
+            {
+                if (lockedReason == ScriptablePage.LockedChoiceType.workingInprogress ||
+                    lockedReason == ScriptablePage.LockedChoiceType.waitingForPlayerInput)
+                {
+                    //se vorremmo fare qualcosa di diverso in base al locked type
+                    fullPressedImage.gameObject.SetActive(false);
+                    return;
+                }
+                if (lockedReason == ScriptablePage.LockedChoiceType.toLowCourage && myText.text == Localization.Get("notEnoughBrave"))
+                {
+                    fullPressedImage.gameObject.SetActive(false);
+                    return;
+                }
+            }
+            
+            // Invoca gli eventi onClick del Button prima di eseguire OnClick()
+            // Questo è necessario per bottoni come Lucky che usano onClick.AddListener
+            button.onClick?.Invoke();
+            
+            OnClick();
         }
 
         public void OnPointerDown(PointerEventData eventData)
@@ -410,7 +449,7 @@ namespace Game
                 obj.SetActive(false);
             }
 
-            if(functionDelegate != null)
+            if (functionDelegate != null)
             {
                 functionDelegate();
                 functionDelegate = null;
@@ -662,15 +701,23 @@ namespace Game
             // Ciclo per aumentare l'alpha progressivamente
             while (elapsedTime < fadeDuration)
             {
+                if (canvasGroup == null)
+                {
+                    yield break;
+                }
+                
                 elapsedTime += Time.deltaTime;
                 canvasGroup.alpha = Mathf.Clamp01(elapsedTime / fadeDuration); // Interpola da 0 a 1
                 yield return null; // Attendi il prossimo frame
             }
 
             // Una volta completato il fade, rendi il canvas interattivo
-            canvasGroup.alpha = 1f;
-            canvasGroup.interactable = true;
-            buttonIsAlreadyFadeIn = true;
+            if (canvasGroup != null)
+            {
+                canvasGroup.alpha = 1f;
+                canvasGroup.interactable = true;
+                buttonIsAlreadyFadeIn = true;
+            }
         }
 
         internal IEnumerator ShowTheButtonUnderText()
@@ -682,15 +729,23 @@ namespace Game
             // Ciclo per aumentare l'alpha progressivamente
             while (elapsedTime < fadeDuration)
             {
+                if (canvasGroup == null)
+                {
+                    yield break;
+                }
+                
                 elapsedTime += Time.deltaTime;
                 canvasGroup.alpha = Mathf.Clamp01(elapsedTime / fadeDuration); // Interpola da 0 a 1
                 yield return null; // Attendi il prossimo frame
             }
 
             // Una volta completato il fade, rendi il canvas interattivo
-            canvasGroup.alpha = 1f;
-            canvasGroup.interactable = true;
-            buttonIsAlreadyFadeIn = true;
+            if (canvasGroup != null)
+            {
+                canvasGroup.alpha = 1f;
+                canvasGroup.interactable = true;
+                buttonIsAlreadyFadeIn = true;
+            }
         }
 
         internal IEnumerator ShowButtonWithoutFade()

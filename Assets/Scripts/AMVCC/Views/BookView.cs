@@ -586,6 +586,8 @@ namespace Game
                 OnChangeLife(PlayerManager.Singleton.lifePoints, PlayerManager.Singleton.constitution);
                 UpdateLevelUI();
             }
+
+           
         }
 
         public IEnumerator CheckIfEndOfPageReached(string pageID)
@@ -614,6 +616,12 @@ namespace Game
         internal void NotifyPageEndReached(string page, bool writeTextUnderButton = false)
         {
             Debug.Log("FINE RAGGIUNTA" + page);
+
+            if (ChoiceKeyboardController.Singleton != null)
+            {
+                ChoiceKeyboardController.Singleton.RefreshChoices();
+            }
+
             if (writeTextUnderButton)
             {
                 ShowTheButtons(true);
