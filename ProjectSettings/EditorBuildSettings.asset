@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/IntroScene.unity
-    guid: 927d17234378a884ea6ea06acf1a5eac
+    path: Assets/Scenes/QuantumDuoIntroScene.unity
+    guid: a72c679f8ad31e642886ff7299546452
   - enabled: 1
     path: Assets/Scenes/GameScene.unity
     guid: a097849d122410b4f98243501da854e8
@@ -16,4 +16,3 @@ EditorBuildSettings:
       guid: cade0d82da227874ca6fe3be4a05f57d, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: 1a777a29f47e34d4eb5db853dc520157, type: 2}
-  m_UseUCBPForAssetBundles: 0

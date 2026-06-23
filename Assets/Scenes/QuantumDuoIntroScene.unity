@@ -730,7 +730,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: quantum
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1d64e82bcd73df1479049bc444fbdb4b, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: -713344556056163967, guid: 1d64e82bcd73df1479049bc444fbdb4b,
     type: 2}
   m_fontSharedMaterials: []
@@ -947,7 +947,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: 10fc4df2da32a41aaa32d77bc913491c, type: 2}
+  sharedProfile: {fileID: 0}
 --- !u!4 &832575519
 Transform:
   m_ObjectHideFlags: 0
@@ -1191,7 +1191,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: duo
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1d64e82bcd73df1479049bc444fbdb4b, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: -713344556056163967, guid: 1d64e82bcd73df1479049bc444fbdb4b,
     type: 2}
   m_fontSharedMaterials: []
@@ -1848,7 +1848,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: .games
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cda558371e04c6546ac1fa8a49d11f38, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 2358102109310112619, guid: cda558371e04c6546ac1fa8a49d11f38,
     type: 2}
   m_fontSharedMaterials: []
