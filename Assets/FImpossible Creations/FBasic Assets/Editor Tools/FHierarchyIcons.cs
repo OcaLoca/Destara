@@ -13,20 +13,20 @@ public class FHierarchyIcons
     static FHierarchyIcons()
     {
 #if UNITY_EDITOR
-        EditorApplication.hierarchyWindowItemOnGUI += EvaluateIcons;
+        //EditorApplication.hierarchyWindowItemOnGUI += EvaluateIcons;
 #endif
     }
 
-    private static void EvaluateIcons(int instanceId, Rect selectionRect)
-    {
-#if UNITY_EDITOR
-        GameObject go = EditorUtility.InstanceIDToObject(instanceId) as GameObject;
-        if (go == null) return;
+//    private static void EvaluateIcons(int instanceId, Rect selectionRect)
+//    {
+//#if UNITY_EDITOR
+//        GameObject go = EditorUtility.InstanceIDToObject(instanceId) as GameObject;
+//        if (go == null) return;
 
-        IFHierarchyIcon slotCon = go.GetComponent<IFHierarchyIcon>();
-        if (slotCon != null) DrawIcon(slotCon.EditorIconPath, selectionRect);
-#endif
-    }
+//        IFHierarchyIcon slotCon = go.GetComponent<IFHierarchyIcon>();
+//        if (slotCon != null) DrawIcon(slotCon.EditorIconPath, selectionRect);
+//#endif
+//    }
 
     private static void DrawIcon(string texName, Rect rect)
     {

@@ -75,7 +75,7 @@ namespace StarworkGC.Localization
                     }
                     else
                     {
-                        EditorPrefs.SetString(name, obj.GetInstanceID().ToString());
+                        EditorPrefs.SetString(name, obj.GetEntityId().ToString());
                     }
                 }
                 else EditorPrefs.DeleteKey(name);
@@ -158,7 +158,7 @@ namespace StarworkGC.Localization
             {
                 int id;
                 if (int.TryParse(path, out id))
-                    return EditorUtility.InstanceIDToObject(id) as T;
+                    return EditorUtility.EntityIdToObject(id) as T;
             }
             return retVal;
         }

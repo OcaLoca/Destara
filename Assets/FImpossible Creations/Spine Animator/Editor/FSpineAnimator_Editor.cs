@@ -215,7 +215,7 @@ public class FSpineAnimator_Editor : UnityEditor.Editor
                             drawAnimationOptions = false;
                             drawAdvancedCorrection = false;
                             drawQuickCorrection = true;
-                            EditorPrefs.SetInt(spineA.name + "-" + spineA.GetInstanceID(), 1);
+                            EditorPrefs.SetInt(spineA.name + "-" + spineA.GetEntityId(), 1);
                         }
                     }
         }
@@ -223,9 +223,9 @@ public class FSpineAnimator_Editor : UnityEditor.Editor
         {
             if (!incorrectionClicked)
                 if (!spineA.wasIncorrectRemind)
-                    if (EditorPrefs.GetInt(spineA.name + "-" + spineA.GetInstanceID()) == 1)
+                    if (EditorPrefs.GetInt(spineA.name + "-" + spineA.GetEntityId()) == 1)
                     {
-                        EditorPrefs.SetInt(spineA.name + "-" + spineA.GetInstanceID(), 0);
+                        EditorPrefs.SetInt(spineA.name + "-" + spineA.GetEntityId(), 0);
                         spineA.wasIncorrectRemind = true;
                         drawAnimationOptions = false;
                         drawAdvancedCorrection = false;

@@ -30,6 +30,12 @@ namespace Game
             Singleton = this;
             maxVolume = 1;
             audioSource.Play();
+            
+            if(audioClipsDatabase == null || audioClipsDatabase.Count > 0)
+            {
+                return;
+            }
+
 
             foreach (AudioClip data in Resources.LoadAll<AudioClip>("AudioEffects"))
             {

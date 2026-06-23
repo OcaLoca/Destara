@@ -27,7 +27,7 @@ namespace Crosstales.BWF.EditorExtension
 
       static BWFManagerEditor()
       {
-         EditorApplication.hierarchyWindowItemOnGUI += hierarchyItemCB;
+         //EditorApplication.hierarchyWindowItemOnGUI += hierarchyItemCB;
       }
 
       #endregion
@@ -131,7 +131,7 @@ namespace Crosstales.BWF.EditorExtension
             //GUI.backgroundColor = Color.green;
             //GUI.contentColor = Color.yellow;
 
-            GameObject go = EditorUtility.InstanceIDToObject(instanceID) as GameObject;
+            GameObject go = EditorUtility.EntityIdToObject(instanceID) as GameObject;
 
             if (go != null && go.GetComponent<BWFManager>())
             {

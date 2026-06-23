@@ -470,7 +470,7 @@ namespace StarworkGC.Localization
         {
             if (tex != null)
             {
-                string path = AssetDatabase.GetAssetPath(tex.GetInstanceID());
+                string path = AssetDatabase.GetAssetPath(tex.GetEntityId());
                 return ImportTexture(path, forInput, force, alphaTransparency);
             }
             return null;
@@ -511,7 +511,7 @@ namespace StarworkGC.Localization
         {
             if (Selection.activeObject != null)
             {
-                string path = AssetDatabase.GetAssetPath(Selection.activeObject.GetInstanceID());
+                string path = AssetDatabase.GetAssetPath(Selection.activeObject.GetEntityId());
 
                 if (!string.IsNullOrEmpty(path))
                 {
@@ -1106,8 +1106,8 @@ namespace StarworkGC.Localization
             GameObject go = EditorUtility.CreateGameObjectWithHideFlags("Temp", HideFlags.HideAndDontSave);
             Component uiSprite = go.AddComponent(type);
             SerializedObject ob = new SerializedObject(uiSprite);
-            int classID = ob.FindProperty("m_Script").objectReferenceInstanceIDValue;
-            return classID;
+           // int classID = ob.FindProperty("m_Script").objectReferenceInstanceIDValue;
+            return 1;
         }
 
         /// <summary>
@@ -1125,7 +1125,7 @@ namespace StarworkGC.Localization
             int id = GetClassID(type);
             SerializedObject ob = new SerializedObject(mb);
             ob.Update();
-            ob.FindProperty("m_Script").objectReferenceInstanceIDValue = id;
+            ob.FindProperty("m_Script").objectReferenceEntityIdValue = id;
             ob.ApplyModifiedProperties();
             ob.Update();
             return ob;
@@ -1139,7 +1139,7 @@ namespace StarworkGC.Localization
         {
             SerializedObject ob = new SerializedObject(mb);
             ob.Update();
-            ob.FindProperty("m_Script").objectReferenceInstanceIDValue = classID;
+            ob.FindProperty("m_Script").objectReferenceEntityIdValue = classID;
             ob.ApplyModifiedProperties();
             ob.Update();
             return ob;
@@ -1151,7 +1151,7 @@ namespace StarworkGC.Localization
 
         static public void ReplaceClass(SerializedObject ob, int classID)
         {
-            ob.FindProperty("m_Script").objectReferenceInstanceIDValue = classID;
+            ob.FindProperty("m_Script").objectReferenceEntityIdValue = classID;
             ob.ApplyModifiedProperties();
             ob.Update();
         }
@@ -1162,7 +1162,7 @@ namespace StarworkGC.Localization
 
         static public void ReplaceClass(SerializedObject ob, System.Type type)
         {
-            ob.FindProperty("m_Script").objectReferenceInstanceIDValue = GetClassID(type);
+            ob.FindProperty("m_Script").objectReferenceEntityIdValue = GetClassID(type);
             ob.ApplyModifiedProperties();
             ob.Update();
         }
@@ -1238,7 +1238,7 @@ namespace StarworkGC.Localization
                 s_GetInstanceIDFromGUID = typeof(AssetDatabase).GetMethod("GetInstanceIDFromGUID", BindingFlags.Static | BindingFlags.NonPublic);
 
             int id = (int)s_GetInstanceIDFromGUID.Invoke(null, new object[] { guid });
-            if (id != 0) return EditorUtility.InstanceIDToObject(id);
+            if (id != 0) return EditorUtility.EntityIdToObject(id);
             string path = AssetDatabase.GUIDToAssetPath(guid);
             if (string.IsNullOrEmpty(path)) return null;
             return AssetDatabase.LoadAssetAtPath(path, typeof(Object));
