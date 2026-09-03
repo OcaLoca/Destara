@@ -27,7 +27,7 @@
 * **Unity Hub** with **Unity 2022.3 LTS** (or newer).
 
 ### Getting Started
-Download the Demo version from PlayStore: OcaLoca Games is my company name. 
+Download the Demo version from PlayStore:
 https://play.google.com/store/apps/details?id=com.OcaLoca.Destara&pcampaignid=web_share
 
 1. **Clone the repository:**
